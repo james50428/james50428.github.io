@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Racter&#39;s Blogs</title>
+  
+  <subtitle>Racter</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://racterub.com.tw/"/>
+  <updated>2017-10-04T02:33:49.479Z</updated>
+  <id>https://racterub.com.tw/</id>
+  
+  <author>
+    <name>Racter Liu</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HITCON2017-Bamboofox Wargame</title>
+    <link href="https://racterub.com.tw/zh-tw/hitcon2017-bamboofox/"/>
+    <id>https://racterub.com.tw/zh-tw/hitcon2017-bamboofox/</id>
+    <published>2017-08-25T23:02:43.000Z</published>
+    <updated>2017-10-04T02:33:49.479Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;只解出兩題, 剩下的因為我太廢不會繞保護所以沒解QQ&lt;/p&gt;
+&lt;h2 id=&quot;Forensic-100&quot;&gt;&lt;a href=&quot;#Forensic-100&quot; class=&quot;headerlink&quot; title=&quot;Forensic [100]&quot;&gt;&lt;/a&gt;Forensic [100]
+      
+    
+    </summary>
+    
+      <category term="Write-up" scheme="https://racterub.com.tw/categories/Write-up/"/>
+    
+      <category term="hitcon2017CMT" scheme="https://racterub.com.tw/categories/Write-up/hitcon2017CMT/"/>
+    
+      <category term="bamboofox" scheme="https://racterub.com.tw/categories/Write-up/hitcon2017CMT/bamboofox/"/>
+    
+    
+      <category term="bamboofox" scheme="https://racterub.com.tw/tags/bamboofox/"/>
+    
+      <category term="hitcon2017" scheme="https://racterub.com.tw/tags/hitcon2017/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu-Fixes</title>
+    <link href="https://racterub.com.tw/zh-tw/ubuntu-fixes/"/>
+    <id>https://racterub.com.tw/zh-tw/ubuntu-fixes/</id>
+    <published>2017-08-13T13:02:20.000Z</published>
+    <updated>2017-10-04T02:33:49.479Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;最近在更新軟體包的時候出現&lt;code&gt;files list file for package &amp;#39;xxx&amp;#39; is missing final newline&lt;/code&gt;的錯誤&lt;br&gt;解法:&lt;br&gt;&lt;figure class=&quot;highlight python
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="https://racterub.com.tw/categories/Linux/"/>
+    
+      <category term="Ubuntu" scheme="https://racterub.com.tw/categories/Linux/Ubuntu/"/>
+    
+      <category term="Bugfix" scheme="https://racterub.com.tw/categories/Linux/Ubuntu/Bugfix/"/>
+    
+    
+      <category term="Ubuntu" scheme="https://racterub.com.tw/tags/Ubuntu/"/>
+    
+      <category term="Linux" scheme="https://racterub.com.tw/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AIS3 Pre-Exam 2017</title>
+    <link href="https://racterub.com.tw/zh-tw/ais3-2017/"/>
+    <id>https://racterub.com.tw/zh-tw/ais3-2017/</id>
+    <published>2017-07-13T15:12:36.000Z</published>
+    <updated>2017-10-04T02:33:49.475Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;這次是我第一次玩AIS3 Pre-Exam,難度沒有特別難&lt;del&gt;以web來說拉&lt;/del&gt;.&lt;br&gt;解題的時候有卡了一下下&lt;del&gt;實際上是一整天&lt;/del&gt;&lt;br&gt;以下是有解出來的write-up&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;FLAG和題目大多都忘記保存了QQ,所以這篇
+      
+    
+    </summary>
+    
+      <category term="Write-up" scheme="https://racterub.com.tw/categories/Write-up/"/>
+    
+      <category term="AIS3" scheme="https://racterub.com.tw/categories/Write-up/AIS3/"/>
+    
+      <category term="2017" scheme="https://racterub.com.tw/categories/Write-up/AIS3/2017/"/>
+    
+    
+      <category term="AIS3" scheme="https://racterub.com.tw/tags/AIS3/"/>
+    
+      <category term="Writeu-up" scheme="https://racterub.com.tw/tags/Writeu-up/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vagrant-Windows</title>
+    <link href="https://racterub.com.tw/zh-tw/vagrant-windows/"/>
+    <id>https://racterub.com.tw/zh-tw/vagrant-windows/</id>
+    <published>2017-05-24T14:03:38.000Z</published>
+    <updated>2017-10-04T02:33:49.479Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;&lt;code&gt;本篇僅針對Windows教學,其他系統請去煩作者叫他生出來&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;本章將介紹虛擬機器的基本設定,並且介紹V
+      
+    
+    </summary>
+    
+      <category term="Enviroment" scheme="https://racterub.com.tw/categories/Enviroment/"/>
+    
+      <category term="Vagrant" scheme="https://racterub.com.tw/categories/Enviroment/Vagrant/"/>
+    
+      <category term="Windows" scheme="https://racterub.com.tw/categories/Enviroment/Vagrant/Windows/"/>
+    
+    
+      <category term="Vagrant" scheme="https://racterub.com.tw/tags/Vagrant/"/>
+    
+      <category term="VirtualBox" scheme="https://racterub.com.tw/tags/VirtualBox/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NBA++</title>
+    <link href="https://racterub.com.tw/en/NBA++/"/>
+    <id>https://racterub.com.tw/en/NBA++/</id>
+    <published>2017-05-06T10:21:41.000Z</published>
+    <updated>2017-10-04T02:33:49.475Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;NBA&quot;&gt;&lt;a href=&quot;#NBA&quot; class=&quot;headerlink&quot; title=&quot;NBA++&quot;&gt;&lt;/a&gt;NBA++&lt;/h1&gt;&lt;h2 id=&quot;Android&quot;&gt;&lt;a href=&quot;#Android&quot; class=&quot;headerlink&quot; title=&quot;And
+      
+    
+    </summary>
+    
+      <category term="Cracked apps" scheme="https://racterub.com.tw/categories/Cracked-apps/"/>
+    
+    
+      <category term="NBA" scheme="https://racterub.com.tw/tags/NBA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Setup-Enviroment</title>
+    <link href="https://racterub.com.tw/en/Setup-Enviroment/"/>
+    <id>https://racterub.com.tw/en/Setup-Enviroment/</id>
+    <published>2017-05-05T15:43:33.000Z</published>
+    <updated>2017-10-04T02:33:49.475Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Basic-Setup&quot;&gt;&lt;a href=&quot;#Basic-Setup&quot; class=&quot;headerlink&quot; title=&quot;Basic Setup&quot;&gt;&lt;/a&gt;Basic Setup&lt;/h1&gt;&lt;h2 id=&quot;Base-System&quot;&gt;&lt;a href=&quot;#Base-S
+      
+    
+    </summary>
+    
+      <category term="Enviroment" scheme="https://racterub.com.tw/categories/Enviroment/"/>
+    
+    
+      <category term="Ubuntu" scheme="https://racterub.com.tw/tags/Ubuntu/"/>
+    
+      <category term="Enviroment" scheme="https://racterub.com.tw/tags/Enviroment/"/>
+    
+  </entry>
+  
+</feed>

