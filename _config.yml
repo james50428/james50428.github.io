@@ -2,7 +2,7 @@
 title: "Racterub's Blog"
 description: 'Where a geeky geek place his article & CTF Write-ups'
 keyword: 'racterub,racter,ctf,writeup'
-url: '' # your host
+url: 'https://blog.racterub.io' # your host
 
 # when build blog on server, if you don't need baseurl, you should leave this value blank.
 # 在服务器上建站时，如果你不需要子域名，请将这一格留空
@@ -33,7 +33,7 @@ avatar: '/assets/img/profile.png'
 search: true
 
 # Night mode
-nightMode: false
+nightMode: true
 
 # Comments 评论功能
 comments:
