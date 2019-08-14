@@ -23,7 +23,6 @@ $(document).ready(function(){
     if($(window).width() > 695) {
         var header = $('.g-header');
         var headerHeight = header.outerHeight();
-        var logo = $('.g-logo');
         var navText = nav.find('a');
         var themeStyle = $('.g-banner').attr('data-theme');
         var scFlag = $(document).scrollTop();
@@ -40,10 +39,6 @@ $(document).ready(function(){
                     'background-color': 'rgba(255, 255, 255, .98)',
                     'box-shadow': '0 1px 12px rgba(0, 0, 0, .08)'
                 });
-                logo.css({
-                    'background': 'url(/assets/icons/logo_' + themeStyle + '.svg) no-repeat center',
-                    'background-size': '100% 100%'
-                });
                 navText.css('color', '#666');
                 nav.addClass(navClassName);
             } else {
@@ -51,10 +46,6 @@ $(document).ready(function(){
                 header.css({
                     'background-color': 'transparent',
                     'box-shadow': 'none'
-                });
-                logo.css({
-                    'background': 'url(/assets/icons/logo.svg) no-repeat center',
-                    'background-size': '100% 100%'
                 });
                 navText.css('color', '#fff');
                 nav.removeClass(navClassName);
@@ -211,38 +202,38 @@ $(document).ready(function(){
     /**
      * Night mode
      */
-    function nightMode() {
-        var el = $('body');
-        var className = 'night-mode';
+    // function nightMode() {
+    //     var el = $('body');
+    //     var className = 'night-mode';
 
-        var date = new Date();
-        var hour = date.getHours();
+    //     var date = new Date();
+    //     var hour = date.getHours();
 
-        if (hour <= 6 || hour >= 18) {
-            el.addClass(className);
-        }
-    }
+    //     if (hour <= 6 || hour >= 18) {
+    //         el.addClass(className);
+    //     }
+    // }
 
-    if ($('#nm-switch').val() === 'true') {
-        nightMode();
-    }
+    // if ($('#nm-switch').val() === 'true') {
+    //     nightMode();
+    // }
 
-    /**
-     * Copy and copyright
-     */
-    function setClipboardData(str) {
-        str += '\n\n著作权归作者所有。\n商业转载请联系作者获得授权,非商业转载请注明出处。\n原文: ' + location.href;
-        $('.post-content').on('copy', function(e) {
-            var data = window.clipboardData || e.originalEvent.clipboardData;
-            data.setData('text/plain', str);
-            e.preventDefault();
-        });
-    }
-    $('.post-content').on('mouseup', function(e) {
-        var txt = window.getSelection();
-        if (txt.toString().length >= 30) {
-            setClipboardData(txt);
-        }
-    });
+    // /**
+    //  * Copy and copyright
+    //  */
+    // function setClipboardData(str) {
+    //     str += '\n\n著作权归作者所有。\n商业转载请联系作者获得授权,非商业转载请注明出处。\n原文: ' + location.href;
+    //     $('.post-content').on('copy', function(e) {
+    //         var data = window.clipboardData || e.originalEvent.clipboardData;
+    //         data.setData('text/plain', str);
+    //         e.preventDefault();
+    //     });
+    // }
+    // $('.post-content').on('mouseup', function(e) {
+    //     var txt = window.getSelection();
+    //     if (txt.toString().length >= 30) {
+    //         setClipboardData(txt);
+    //     }
+    // });
 
 });
