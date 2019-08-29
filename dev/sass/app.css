@@ -860,6 +860,11 @@ a {
   .night-mode .token.keyword {
     color: #61BDCF; }
 
+.highlighter-rouge {
+  color: #337ab7;
+  background-color: #333333;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important; }
+
 @media screen and (min-width: 1920px) {
   .home-banner {
     height: 600px; }

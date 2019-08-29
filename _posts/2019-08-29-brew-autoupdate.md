@@ -7,13 +7,12 @@ tags: 'homebrew macos'
 ---
 Homebrew 在安裝套件前都會自行比對本地跟 GitHub 上的版本，然後 fetch 到最新版。
 如果是全新的 homebrew 或許等待時間還可接受，但是如果新增了過多的 Source (tap 太多東西) 就會造成時間過度浪費。
-
+<br/>
 我有嘗試 code review 把 fetch 的地方拉出來寫成一個 cron 來執行，但是最後我太懶(? 決定直接讓他自己跑 `/usr/local/bin/brew update`
-
+<br/>
 以下會是我自行使用的設定
-
 1. 建立 plist
-- `~/Library/LaunchAgents/org.racterub.brewupdate.plist` **一定要放在 ~/Library/LaunchAgents 裡面，檔名為 org.<username>.<jobname>.plist **
+- `~/Library/LaunchAgents/org.racterub.brewupdate.plist` **一定要放在 ~/Library/LaunchAgents 裡面，檔名為 org.{username}.{jobname}.plist**
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
