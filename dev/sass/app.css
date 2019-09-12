@@ -862,7 +862,7 @@ a {
 
 .highlighter-rouge {
   color: #337ab7;
-  background-color: #333333;
+  background-color: rgba(27, 31, 35, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1) !important; }
 
 @media screen and (min-width: 1920px) {
