@@ -4,6 +4,7 @@ title: '解決 Update Homebrew 過慢'
 author: 'racterub'
 date: '2019-08-29'
 tags: 'homebrew macos'
+header-img: assets/img/back.jpg
 ---
 Homebrew 在安裝套件前都會自行比對本地跟 GitHub 上的版本，然後 fetch 到最新版。
 如果是全新的 homebrew 或許等待時間還可接受，但是如果新增了過多的 Source (tap 太多東西) 就會造成時間過度浪費。
