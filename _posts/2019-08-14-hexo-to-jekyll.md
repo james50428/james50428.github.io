@@ -4,7 +4,6 @@ title: 'Hexo to Jekyll 心得'
 author: 'racterub'
 date: '2019-08-14'
 tags: 'jekyll hexo'
-header-img: assets/img/back.jpg
 ---
 
 你可以參考我的 Blog 架構來當作初學對象，我使用的是 [H20 Theme](https://github.com/kaeyleo/jekyll-theme-H2O)。
