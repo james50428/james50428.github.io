@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Racterub&#39;s Blog</title>
+  <icon>https://blog.racterub.me/icon.png</icon>
+  <subtitle>I suck at programming &amp; CTF</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://blog.racterub.me/"/>
+  <updated>2020-06-29T14:28:59.170Z</updated>
+  <id>https://blog.racterub.me/</id>
+  
+  <author>
+    <name>Racter</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>htb-traceback</title>
+    <link href="https://blog.racterub.me/en/2020/htb-traceback/"/>
+    <id>https://blog.racterub.me/en/2020/htb-traceback/</id>
+    <published>2020-06-29T14:28:59.000Z</published>
+    <updated>2020-06-29T14:28:59.170Z</updated>
+    
+    <summary type="html">
+    
+      This article is encrypted with root flag. If you need any hints, you can contact this blog&#39;s owner
+    
+    </summary>
+    
+    
+      <category term="writeup" scheme="https://blog.racterub.me/categories/writeup/"/>
+    
+      <category term="pentest" scheme="https://blog.racterub.me/categories/writeup/pentest/"/>
+    
+      <category term="htb" scheme="https://blog.racterub.me/categories/writeup/pentest/htb/"/>
+    
+      <category term="traceback" scheme="https://blog.racterub.me/categories/writeup/pentest/htb/traceback/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>htb-blunder</title>
+    <link href="https://blog.racterub.me/en/2020/htb-blunder/"/>
+    <id>https://blog.racterub.me/en/2020/htb-blunder/</id>
+    <published>2020-06-29T13:21:28.000Z</published>
+    <updated>2020-06-29T13:39:11.180Z</updated>
+    
+    <summary type="html">
+    
+      This article is encrypted with root flag. If you need any hints, you can contact this blog&#39;s owner
+    
+    </summary>
+    
+    
+      <category term="writeup" scheme="https://blog.racterub.me/categories/writeup/"/>
+    
+      <category term="pentest" scheme="https://blog.racterub.me/categories/writeup/pentest/"/>
+    
+      <category term="htb" scheme="https://blog.racterub.me/categories/writeup/pentest/htb/"/>
+    
+      <category term="blunder" scheme="https://blog.racterub.me/categories/writeup/pentest/htb/blunder/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>AIS3 Pre-Exam 2020</title>
+    <link href="https://blog.racterub.me/zh-tw/2020/ais3-2020/"/>
+    <id>https://blog.racterub.me/zh-tw/2020/ais3-2020/</id>
+    <published>2020-06-29T09:00:10.000Z</published>
+    <updated>2020-06-29T09:00:10.073Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;臨時決定參加 Pre-Exam，太久沒打了，什麼也沒準備&lt;br&gt;名次也爛到自己不想看&lt;/p&gt;
+&lt;p&gt;勉強寫點 writeup&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="writeup" scheme="https://blog.racterub.me/categories/writeup/"/>
+    
+      <category term="AIS3" scheme="https://blog.racterub.me/categories/writeup/AIS3/"/>
+    
+      <category term="2020" scheme="https://blog.racterub.me/categories/writeup/AIS3/2020/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>TAMUCTF-2018</title>
+    <link href="https://blog.racterub.me/zh-tw/2018/tamuctf-2018/"/>
+    <id>https://blog.racterub.me/zh-tw/2018/tamuctf-2018/</id>
+    <published>2018-02-26T16:00:00.000Z</published>
+    <updated>2020-06-28T19:40:49.011Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;太多情境題了&lt;br&gt;web 滿滿的水題有點無言&lt;br&gt;只寫一些值得紀錄的&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="writeup" scheme="https://blog.racterub.me/categories/writeup/"/>
+    
+      <category term="CTF" scheme="https://blog.racterub.me/categories/writeup/CTF/"/>
+    
+      <category term="TAMUCTF" scheme="https://blog.racterub.me/categories/writeup/CTF/TAMUCTF/"/>
+    
+      <category term="2018" scheme="https://blog.racterub.me/categories/writeup/CTF/TAMUCTF/2018/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Bamboofox CTF 2017</title>
+    <link href="https://blog.racterub.me/zh-tw/2018/bamboofox-2017/"/>
+    <id>https://blog.racterub.me/zh-tw/2018/bamboofox-2017/</id>
+    <published>2017-12-31T16:00:00.000Z</published>
+    <updated>2020-06-28T19:20:43.614Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;過了好幾個月重回了 CTF 比賽，但是這次考的是我以前沒學過的 x64 再加上我完全忘記要如何解題 ，變得 pwn 只拿下一題，挺失望的 QQ&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="writeup" scheme="https://blog.racterub.me/categories/writeup/"/>
+    
+      <category term="CTF" scheme="https://blog.racterub.me/categories/writeup/CTF/"/>
+    
+      <category term="bamboofox" scheme="https://blog.racterub.me/categories/writeup/CTF/bamboofox/"/>
+    
+      <category term="2017" scheme="https://blog.racterub.me/categories/writeup/CTF/bamboofox/2017/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>HITCON2017-Bamboofox Wargame</title>
+    <link href="https://blog.racterub.me/zh-tw/2017/hitcon-2017-bamboofox/"/>
+    <id>https://blog.racterub.me/zh-tw/2017/hitcon-2017-bamboofox/</id>
+    <published>2017-08-24T16:00:00.000Z</published>
+    <updated>2020-06-28T19:43:04.193Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;只解出兩題, 剩下的因為我太廢不會繞保護所以沒解QQ&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="writeup" scheme="https://blog.racterub.me/categories/writeup/"/>
+    
+      <category term="wargame" scheme="https://blog.racterub.me/categories/writeup/wargame/"/>
+    
+      <category term="hitcon-2017-bamboofox" scheme="https://blog.racterub.me/categories/writeup/wargame/hitcon-2017-bamboofox/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>AIS3 Pre-Exam 2017</title>
+    <link href="https://blog.racterub.me/zh-tw/2017/ais3-2017/"/>
+    <id>https://blog.racterub.me/zh-tw/2017/ais3-2017/</id>
+    <published>2017-07-12T16:00:00.000Z</published>
+    <updated>2020-06-28T19:46:56.139Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;這次是我第一次玩AIS3 Pre-Exam,難度沒有特別難&lt;del&gt;以web來說拉&lt;/del&gt;.&lt;br&gt;解題的時候有卡了一下下&lt;del&gt;實際上是一整天&lt;/del&gt;&lt;br&gt;以下是有解出來的write-up&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="writeup" scheme="https://blog.racterub.me/categories/writeup/"/>
+    
+      <category term="AIS3" scheme="https://blog.racterub.me/categories/writeup/AIS3/"/>
+    
+      <category term="2017" scheme="https://blog.racterub.me/categories/writeup/AIS3/2017/"/>
+    
+    
+  </entry>
+  
+</feed>

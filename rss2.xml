@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Racterub&#39;s Blog</title>
+    <link>https://blog.racterub.me/</link>
+    
+    <image>
+      <url>https://blog.racterub.me/icon.png</url>
+      <title>Racterub&#39;s Blog</title>
+      <link>https://blog.racterub.me/</link>
+    </image>
+    
+    <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description></description>
+    <pubDate>Mon, 29 Jun 2020 14:28:59 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>htb-traceback</title>
+      <link>https://blog.racterub.me/en/2020/htb-traceback/</link>
+      <guid>https://blog.racterub.me/en/2020/htb-traceback/</guid>
+      <pubDate>Mon, 29 Jun 2020 14:28:59 GMT</pubDate>
+      <description>
+      
+        This article is encrypted with root flag. If you need any hints, you can contact this blog&#39;s owner
+      
+      </description>
+      
+      
+      <comments>https://blog.racterub.me/en/2020/htb-traceback/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>htb-blunder</title>
+      <link>https://blog.racterub.me/en/2020/htb-blunder/</link>
+      <guid>https://blog.racterub.me/en/2020/htb-blunder/</guid>
+      <pubDate>Mon, 29 Jun 2020 13:21:28 GMT</pubDate>
+      <description>
+      
+        This article is encrypted with root flag. If you need any hints, you can contact this blog&#39;s owner
+      
+      </description>
+      
+      
+      <comments>https://blog.racterub.me/en/2020/htb-blunder/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>AIS3 Pre-Exam 2020</title>
+      <link>https://blog.racterub.me/zh-tw/2020/ais3-2020/</link>
+      <guid>https://blog.racterub.me/zh-tw/2020/ais3-2020/</guid>
+      <pubDate>Mon, 29 Jun 2020 09:00:10 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;臨時決定參加 Pre-Exam，太久沒打了，什麼也沒準備&lt;br&gt;名次也爛到自己不想看&lt;/p&gt;
+&lt;p&gt;勉強寫點 writeup&lt;/p&gt;
+      
+      </description>
+      
+      
+      <comments>https://blog.racterub.me/zh-tw/2020/ais3-2020/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>TAMUCTF-2018</title>
+      <link>https://blog.racterub.me/zh-tw/2018/tamuctf-2018/</link>
+      <guid>https://blog.racterub.me/zh-tw/2018/tamuctf-2018/</guid>
+      <pubDate>Mon, 26 Feb 2018 16:00:00 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;太多情境題了&lt;br&gt;web 滿滿的水題有點無言&lt;br&gt;只寫一些值得紀錄的&lt;/p&gt;
+      
+      </description>
+      
+      
+      <comments>https://blog.racterub.me/zh-tw/2018/tamuctf-2018/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Bamboofox CTF 2017</title>
+      <link>https://blog.racterub.me/zh-tw/2018/bamboofox-2017/</link>
+      <guid>https://blog.racterub.me/zh-tw/2018/bamboofox-2017/</guid>
+      <pubDate>Sun, 31 Dec 2017 16:00:00 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;過了好幾個月重回了 CTF 比賽，但是這次考的是我以前沒學過的 x64 再加上我完全忘記要如何解題 ，變得 pwn 只拿下一題，挺失望的 QQ&lt;/p&gt;
+      
+      </description>
+      
+      
+      <comments>https://blog.racterub.me/zh-tw/2018/bamboofox-2017/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>HITCON2017-Bamboofox Wargame</title>
+      <link>https://blog.racterub.me/zh-tw/2017/hitcon-2017-bamboofox/</link>
+      <guid>https://blog.racterub.me/zh-tw/2017/hitcon-2017-bamboofox/</guid>
+      <pubDate>Thu, 24 Aug 2017 16:00:00 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;只解出兩題, 剩下的因為我太廢不會繞保護所以沒解QQ&lt;/p&gt;
+      
+      </description>
+      
+      
+      <comments>https://blog.racterub.me/zh-tw/2017/hitcon-2017-bamboofox/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>AIS3 Pre-Exam 2017</title>
+      <link>https://blog.racterub.me/zh-tw/2017/ais3-2017/</link>
+      <guid>https://blog.racterub.me/zh-tw/2017/ais3-2017/</guid>
+      <pubDate>Wed, 12 Jul 2017 16:00:00 GMT</pubDate>
+      <description>
+      
+        &lt;p&gt;這次是我第一次玩AIS3 Pre-Exam,難度沒有特別難&lt;del&gt;以web來說拉&lt;/del&gt;.&lt;br&gt;解題的時候有卡了一下下&lt;del&gt;實際上是一整天&lt;/del&gt;&lt;br&gt;以下是有解出來的write-up&lt;/p&gt;
+      
+      </description>
+      
+      
+      <comments>https://blog.racterub.me/zh-tw/2017/ais3-2017/#disqus_thread</comments>
+    </item>
+    
+  </channel>
+</rss>
