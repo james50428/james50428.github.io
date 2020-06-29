@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.racterub.me/zh-tw/2020/ais3-2020/</loc>
+    
+    <lastmod>2020-06-29T15:57:10.310Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.racterub.me/en/2020/htb-traceback/</loc>
     
     <lastmod>2020-06-29T14:28:59.170Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://blog.racterub.me/en/2020/htb-blunder/</loc>
     
     <lastmod>2020-06-29T13:39:11.180Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.racterub.me/zh-tw/2020/ais3-2020/</loc>
-    
-    <lastmod>2020-06-29T09:00:10.073Z</lastmod>
     
   </url>
   
