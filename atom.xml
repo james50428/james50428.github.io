@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.racterub.me/"/>
-  <updated>2020-07-22T17:29:09.481Z</updated>
+  <updated>2020-08-29T17:24:33.848Z</updated>
   <id>https://blog.racterub.me/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>nisra-flask</title>
+    <link href="https://blog.racterub.me/en/2020/nisra-flask/"/>
+    <id>https://blog.racterub.me/en/2020/nisra-flask/</id>
+    <published>2020-08-29T17:22:57.000Z</published>
+    <updated>2020-08-29T17:24:33.848Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Description&quot;&gt;
+          &lt;a href=&quot;#Description&quot; class=&quot;heading-link&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;Description&lt;/h2&gt;
+      &lt;figure class=&quot;highlight plain&quot;&gt;&lt;div class=&quot;table-container&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;{{Hi}}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;lab.nisra.net:8787&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/figure&gt;
+
+
+        &lt;h2 id=&quot;Challenge&quot;&gt;
+          &lt;a href=&quot;#Challenge&quot; class=&quot;heading-link&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;Challenge&lt;/h2&gt;
+      &lt;p&gt;By viewing the challenge url, we can immediately see the source code.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="writeup" scheme="https://blog.racterub.me/categories/writeup/"/>
+    
+      <category term="wargame" scheme="https://blog.racterub.me/categories/writeup/wargame/"/>
+    
+      <category term="NISRA Enlightment 2020" scheme="https://blog.racterub.me/categories/writeup/wargame/NISRA-Enlightment-2020/"/>
+    
+      <category term="Flask" scheme="https://blog.racterub.me/categories/writeup/wargame/NISRA-Enlightment-2020/Flask/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>thm-dogcat</title>
