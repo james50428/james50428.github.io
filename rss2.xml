@@ -15,8 +15,31 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Tue, 01 Sep 2020 01:10:58 GMT</pubDate>
+    <pubDate>Wed, 11 Nov 2020 02:23:18 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>vue-eventmodifier</title>
+      <link>https://blog.racterub.me/zh-tw/2020/ais3-2019/</link>
+      <guid>https://blog.racterub.me/zh-tw/2020/ais3-2019/</guid>
+      <pubDate>Wed, 11 Nov 2020 02:23:18 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;
+        &lt;img class=&quot;lazyload lazyload-gif&quot; src=&quot;/images/loading.svg&quot; data-src=&quot;https://i.imgur.com/eUWoRWR.png&quot; alt=&quot;scoreboard&quot;&gt;
+     
+          
+        
+      
+      </description>
+      
+      
+      <comments>https://blog.racterub.me/zh-tw/2020/ais3-2019/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>nisra-flask</title>
