@@ -15,8 +15,28 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Wed, 11 Nov 2020 02:27:28 GMT</pubDate>
+    <pubDate>Wed, 18 Nov 2020 17:24:11 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>BalsnCTF 2020 [Web] tpc</title>
+      <link>https://blog.racterub.me/zh-tw/2020/balsn20-tpc/</link>
+      <guid>https://blog.racterub.me/zh-tw/2020/balsn20-tpc/</guid>
+      <pubDate>Wed, 18 Nov 2020 17:24:11 GMT</pubDate>
+      <description>
+      
+        &lt;h2 id=&quot;intro&quot;&gt;
+          &lt;a href=&quot;#intro&quot; class=&quot;heading-link&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;Intro&lt;/h2&gt;
+      
+&lt;p&gt;Solver: @cc85nod, @stdlib.h @ZoneTwelve&lt;br&gt;
+打醬油: @racterub&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;div class=&quot;table-container&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;Flag is in the working directory&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;http://35.194.175.80:8000&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[Update]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;[tpc] Info&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;You don&#39;t need to use fuzzing tools to guess file names, The flag file name is unguessable.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/figure&gt;
+      
+      </description>
+      
+      
+      <comments>https://blog.racterub.me/zh-tw/2020/balsn20-tpc/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>AIS3 Pre-Exam 2019</title>
