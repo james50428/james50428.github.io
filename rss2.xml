@@ -15,8 +15,25 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Wed, 18 Nov 2020 17:24:11 GMT</pubDate>
+    <pubDate>Mon, 25 Jan 2021 17:41:23 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Tezos Blockchain Part I</title>
+      <link>https://blog.racterub.me/zh-tw/2021/tezos-blockchain-part-1/</link>
+      <guid>https://blog.racterub.me/zh-tw/2021/tezos-blockchain-part-1/</guid>
+      <pubDate>Mon, 25 Jan 2021 17:41:23 GMT</pubDate>
+      <description>
+      
+        &lt;h2 id=&quot;緣由&quot;&gt;
+          &lt;a href=&quot;#緣由&quot; class=&quot;heading-link&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;緣由&lt;/h2&gt;
+      &lt;p&gt;在大二上的某天，被教授指派自幹私架的 tezos 區塊鏈，但是老實說我對區塊鏈一點都不熟，就只好硬著頭皮硬幹。&lt;br&gt;也因為 tezos 是當前區塊鏈較新的技術，所以 document &lt;del&gt;(跟屎一樣)&lt;/del&gt; 很分散，需要自己動手挖。&lt;/p&gt;
+      
+      </description>
+      
+      
+      <comments>https://blog.racterub.me/zh-tw/2021/tezos-blockchain-part-1/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>BalsnCTF 2020 [Web] tpc</title>
