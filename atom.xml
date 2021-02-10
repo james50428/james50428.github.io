@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.racterub.me/"/>
-  <updated>2021-01-25T17:41:23.578Z</updated>
+  <updated>2021-02-10T17:41:59.253Z</updated>
   <id>https://blog.racterub.me/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AIS3 EOF CTF 2020 心得</title>
+    <link href="https://blog.racterub.me/zh-tw/2021/ais3-eof-ctf-2020/"/>
+    <id>https://blog.racterub.me/zh-tw/2021/ais3-eof-ctf-2020/</id>
+    <published>2021-02-10T17:41:59.000Z</published>
+    <updated>2021-02-10T17:41:59.253Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Qual&quot;&gt;
+          &lt;a href=&quot;#Qual&quot; class=&quot;heading-link&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;Qual&lt;/h2&gt;
+      &lt;p&gt;在組隊的時候就差點找不到隊友(其實是我一直忘記這件事)，最後從 NCtfU 中直接拉滿人。&lt;br&gt;這場最刺激的其實不是比賽，是比賽剛好在期末考前一週的週末，由於已經組好對了，所以就抱著期末考之後熬夜看就好的心態去比賽 XDDDD&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="writeup" scheme="https://blog.racterub.me/categories/writeup/"/>
+    
+      <category term="AIS3" scheme="https://blog.racterub.me/categories/writeup/AIS3/"/>
+    
+      <category term="EOF" scheme="https://blog.racterub.me/categories/writeup/AIS3/EOF/"/>
+    
+      <category term="2020" scheme="https://blog.racterub.me/categories/writeup/AIS3/EOF/2020/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Tezos Blockchain Part I</title>

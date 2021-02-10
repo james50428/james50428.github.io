@@ -15,8 +15,25 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Mon, 25 Jan 2021 17:41:23 GMT</pubDate>
+    <pubDate>Wed, 10 Feb 2021 17:41:59 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>AIS3 EOF CTF 2020 心得</title>
+      <link>https://blog.racterub.me/zh-tw/2021/ais3-eof-ctf-2020/</link>
+      <guid>https://blog.racterub.me/zh-tw/2021/ais3-eof-ctf-2020/</guid>
+      <pubDate>Wed, 10 Feb 2021 17:41:59 GMT</pubDate>
+      <description>
+      
+        &lt;h2 id=&quot;Qual&quot;&gt;
+          &lt;a href=&quot;#Qual&quot; class=&quot;heading-link&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;Qual&lt;/h2&gt;
+      &lt;p&gt;在組隊的時候就差點找不到隊友(其實是我一直忘記這件事)，最後從 NCtfU 中直接拉滿人。&lt;br&gt;這場最刺激的其實不是比賽，是比賽剛好在期末考前一週的週末，由於已經組好對了，所以就抱著期末考之後熬夜看就好的心態去比賽 XDDDD&lt;/p&gt;
+      
+      </description>
+      
+      
+      <comments>https://blog.racterub.me/zh-tw/2021/ais3-eof-ctf-2020/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>Tezos Blockchain Part I</title>
