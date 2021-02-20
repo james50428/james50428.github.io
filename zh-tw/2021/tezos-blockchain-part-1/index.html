@@ -1,9 +1,9 @@
-<!DOCTYPE html><html lang="[&quot;zh-tw&quot;,&quot;en&quot;,&quot;default&quot;]"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="icon" href="/images/icons/favicon-16x16.png?v=2.6.2" type="image/png" sizes="16x16"><link rel="icon" href="/images/icons/favicon-32x32.png?v=2.6.2" type="image/png" sizes="32x32"><meta name="description" content="緣由       在大二上的某天，被教授指派自幹私架的 tezos 區塊鏈，但是老實說我對區塊鏈一點都不熟，就只好硬著頭皮硬幹。也因為 tezos 是當前區塊鏈較新的技術，所以 document (跟屎一樣) 很分散，需要自己動手挖。">
+<!DOCTYPE html><html lang="[&quot;zh-tw&quot;,&quot;en&quot;,&quot;default&quot;]"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="icon" href="/images/icons/favicon-16x16.png?v=2.6.2" type="image/png" sizes="16x16"><link rel="icon" href="/images/icons/favicon-32x32.png?v=2.6.2" type="image/png" sizes="32x32"><meta name="description" content="緣由        在大二上的某天，被教授指派自幹私架的 tezos 區塊鏈，但是老實說我對區塊鏈一點都不熟，就只好硬著頭皮硬幹。 也因為 tezos 是當前區塊鏈較新的技術，所以 document (跟屎一樣) 很分散，需要自己動手挖。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Tezos Blockchain Part I">
 <meta property="og:url" content="https://blog.racterub.me/zh-tw/2021/tezos-blockchain-part-1/">
 <meta property="og:site_name" content="Racterub&#39;s Blog">
-<meta property="og:description" content="緣由       在大二上的某天，被教授指派自幹私架的 tezos 區塊鏈，但是老實說我對區塊鏈一點都不熟，就只好硬著頭皮硬幹。也因為 tezos 是當前區塊鏈較新的技術，所以 document (跟屎一樣) 很分散，需要自己動手挖。">
+<meta property="og:description" content="緣由        在大二上的某天，被教授指派自幹私架的 tezos 區塊鏈，但是老實說我對區塊鏈一點都不熟，就只好硬著頭皮硬幹。 也因為 tezos 是當前區塊鏈較新的技術，所以 document (跟屎一樣) 很分散，需要自己動手挖。">
 <meta property="og:locale" content="zh_TW">
 <meta property="article:published_time" content="2021-01-25T17:41:23.000Z">
 <meta property="article:modified_time" content="2021-01-25T17:41:23.578Z">
@@ -40,19 +40,25 @@ var CONFIG = {
 window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="Racterub's Blog" type="application/atom+xml">
 <link rel="alternate" href="/rss2.xml" title="Racterub's Blog" type="application/rss+xml">
 </head><body><div class="container" id="container"><header class="header" id="header"><div class="header-inner header-inner--height header-inner--bgcolor"><nav class="header-nav header-nav--sticky"><div class="header-nav-inner"><div class="header-nav-menubtn"><i class="fas fa-bars"></i></div><div class="header-nav-menu"><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/"><span class="header-nav-menu-item__icon"><i class="fas fa-home"></i></span><span class="header-nav-menu-item__text">Home</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/archives/"><span class="header-nav-menu-item__icon"><i class="fas fa-folder-open"></i></span><span class="header-nav-menu-item__text">Archives</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/categories/"><span class="header-nav-menu-item__icon"><i class="fas fa-layer-group"></i></span><span class="header-nav-menu-item__text">Categories</span></a></div></div><div class="header-nav-search"><span class="header-nav-search__icon"><i class="fas fa-search"></i></span><span class="header-nav-search__text">Search</span></div><div class="header-nav-mode"><div class="mode"><div class="mode-track"><span class="mode-track-moon"></span><span class="mode-track-sun"></span></div><div class="mode-thumb"></div></div></div></div></nav></div></header><main class="main" id="main"><div class="main-inner"><div class="content-wrap" id="content-wrap"><div class="content" id="content"><!-- Just used to judge whether it is an article page--><div id="is-post"></div><div class="post"><header class="post-header"><h1 class="post-title">Tezos Blockchain Part I</h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">Created</span><span class="post-meta-item__value">2021-01-26</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">Updated</span><span class="post-meta-item__value">2021-01-26</span></span></div></header><div class="post-body"><h2 id="緣由">
-          <a href="#緣由" class="heading-link"><i class="fas fa-link"></i></a>緣由</h2>
-      <p>在大二上的某天，被教授指派自幹私架的 tezos 區塊鏈，但是老實說我對區塊鏈一點都不熟，就只好硬著頭皮硬幹。<br>也因為 tezos 是當前區塊鏈較新的技術，所以 document <del>(跟屎一樣)</del> 很分散，需要自己動手挖。</p>
+          <a href="#緣由" class="heading-link"><i class="fas fa-link"></i></a><a class="markdownIt-Anchor" href="#緣由"></a> 緣由</h2>
+      
+<p>在大二上的某天，被教授指派自幹私架的 tezos 區塊鏈，但是老實說我對區塊鏈一點都不熟，就只好硬著頭皮硬幹。<br>
+也因為 tezos 是當前區塊鏈較新的技術，所以 document <s>(跟屎一樣)</s> 很分散，需要自己動手挖。</p>
 <a id="more"></a>
+<p>這份紀錄主要應該會分成三個 part。<br>
+Part I 是 tezos 到底在幹嘛，該如何架設 <code>carthagenet</code>。<br>
+Part II 是 tezos 升級協定的過程還有 tezos 錢包的使用。<br>
+Part III 是使用市面上的 blcok explorer 來將區塊鏈上的資料可視化。</p>
 
-<p>這份紀錄主要應該會分成三個 part。<br>Part I 是 tezos 到底在幹嘛，該如何架設 <code>carthagenet</code>。<br>Part II 是 tezos 升級協定的過程還有 tezos 錢包的使用。<br>Part III 是使用市面上的 blcok explorer 來將區塊鏈上的資料可視化。</p>
+        <h2 id="小抱怨">
+          <a href="#小抱怨" class="heading-link"><i class="fas fa-link"></i></a><a class="markdownIt-Anchor" href="#小抱怨"></a> 小抱怨 🌝</h2>
+      
+<p>一開始架 tezos 選用的套件只有支援舊的協定，而且其中也有遇到一些 Bug。在 debug 還有實作的時候往往都會發現 tezos 官方 document 跟屎一樣，最後只好直接挖 source code 看還比較快。(雖然 source code 是用 ocaml 實作，真的沒有很理解他的語法就是了)</p>
 
-        <h2 id="小抱怨-full-moon-with-face">
-          <a href="#小抱怨-full-moon-with-face" class="heading-link"><i class="fas fa-link"></i></a>小抱怨 <span class="github-emoji" style="color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/1f31d.png?v8) center/contain" data-src="https://github.githubassets.com/images/icons/emoji/unicode/1f31d.png?v8">🌝</span></h2>
-      <p>一開始架 tezos 選用的套件只有支援舊的協定，而且其中也有遇到一些 Bug。在 debug 還有實作的時候往往都會發現 tezos 官方 document 跟屎一樣，最後只好直接挖 source code 看還比較快。(雖然 source code 是用 ocaml 實作，真的沒有很理解他的語法就是了)</p>
-
-        <h2 id="About-Tezos">
-          <a href="#About-Tezos" class="heading-link"><i class="fas fa-link"></i></a>About Tezos</h2>
-      <p>請自行移駕 <span class="exturl"><a class="exturl__link" href="https://en.wikipedia.org/wiki/Tezos" target="_blank" rel="noopener">Wikipedia</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span> XDD。</p>
+        <h2 id="about-tezos">
+          <a href="#about-tezos" class="heading-link"><i class="fas fa-link"></i></a><a class="markdownIt-Anchor" href="#about-tezos"></a> About Tezos</h2>
+      
+<p>請自行移駕 <span class="exturl"><a class="exturl__link" href="https://en.wikipedia.org/wiki/Tezos" target="_blank" rel="noopener">Wikipedia</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span> XDD。</p>
 <p>主要有以下特點</p>
 <ol>
 <li>使用 Proof-of-Stack(PoS) 而不是 Proof-of-Work(PoW)，這可以有效減少 PoW 運算所帶來的能源損耗問題，但是其中也是有一些缺點，其中一個就是有可能造成屯幣的情況</li>
@@ -61,39 +67,42 @@ window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 4.2.1"><lin
 </ol>
 
         <h3 id="一些名詞解釋">
-          <a href="#一些名詞解釋" class="heading-link"><i class="fas fa-link"></i></a>一些名詞解釋</h3>
-      <ul>
+          <a href="#一些名詞解釋" class="heading-link"><i class="fas fa-link"></i></a><a class="markdownIt-Anchor" href="#一些名詞解釋"></a> 一些名詞解釋</h3>
+      
+<ul>
 <li>Baker (礦工)</li>
 <li>Endorsement (關於新區塊的行為)</li>
 <li>Delegation (將資產委託 Baker 代為挖礦)</li>
 </ul>
 
-        <h2 id="架設-Tezos-Blockchain-Carthagenet">
-          <a href="#架設-Tezos-Blockchain-Carthagenet" class="heading-link"><i class="fas fa-link"></i></a>架設 Tezos Blockchain (Carthagenet)</h2>
-      <p>這次使用的是 GitHub 上面的開源專案 <span class="exturl"><a class="exturl__link" href="https://github.com/racterub/private-tezos-blockchain" target="_blank" rel="noopener">private-tezos-blockchain</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span> (這邊的 GitHub 連結是我的 Fork，修好一些東西了)</p>
+        <h2 id="架設-tezos-blockchain-carthagenet">
+          <a href="#架設-tezos-blockchain-carthagenet" class="heading-link"><i class="fas fa-link"></i></a><a class="markdownIt-Anchor" href="#架設-tezos-blockchain-carthagenet"></a> 架設 Tezos Blockchain (Carthagenet)</h2>
+      
+<p>這次使用的是 GitHub 上面的開源專案 <span class="exturl"><a class="exturl__link" href="https://github.com/racterub/private-tezos-blockchain" target="_blank" rel="noopener">private-tezos-blockchain</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span> (這邊的 GitHub 連結是我的 Fork，修好一些東西了)</p>
 <p><strong>這邊都以開三個 node 為例子</strong></p>
 
-        <h3 id="Build-Base-Image">
-          <a href="#Build-Base-Image" class="heading-link"><i class="fas fa-link"></i></a>Build Base Image</h3>
-      <p>直接從 repo 裡面 build 起來就好了</p>
+        <h3 id="build-base-image">
+          <a href="#build-base-image" class="heading-link"><i class="fas fa-link"></i></a><a class="markdownIt-Anchor" href="#build-base-image"></a> Build Base Image</h3>
+      
+<p>直接從 repo 裡面 build 起來就好了</p>
 <figure class="highlight sh"><div class="table-container"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker build -t ubuntu-tezos .</span><br></pre></td></tr></tbody></table></div></figure>
 
-
-        <h3 id="Create-Volume">
-          <a href="#Create-Volume" class="heading-link"><i class="fas fa-link"></i></a>Create Volume</h3>
-      <p>首先先開三個 volume 來存 node 資料</p>
+        <h3 id="create-volume">
+          <a href="#create-volume" class="heading-link"><i class="fas fa-link"></i></a><a class="markdownIt-Anchor" href="#create-volume"></a> Create Volume</h3>
+      
+<p>首先先開三個 volume 來存 node 資料</p>
 <figure class="highlight sh"><div class="table-container"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">docker volume create tezos-volume-1</span><br><span class="line">docker volume create tezos-volume-2</span><br><span class="line">docker volume create tezos-volume-3</span><br></pre></td></tr></tbody></table></div></figure>
 
-
-        <h3 id="Fetch-Binaries">
-          <a href="#Fetch-Binaries" class="heading-link"><i class="fas fa-link"></i></a>Fetch Binaries</h3>
-      <p>接下來要下載 tezos 需要的程式，注意這邊的 <code>GenesisKey</code> 需要一致，所以請存好你的 key。</p>
+        <h3 id="fetch-binaries">
+          <a href="#fetch-binaries" class="heading-link"><i class="fas fa-link"></i></a><a class="markdownIt-Anchor" href="#fetch-binaries"></a> Fetch Binaries</h3>
+      
+<p>接下來要下載 tezos 需要的程式，注意這邊的 <code>GenesisKey</code> 需要一致，所以請存好你的 key。</p>
 <figure class="highlight sh"><div class="table-container"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">docker run --rm -v tezos-volume-1:/base-dir -it ubuntu-tezos fetch-binaries --base-chain carthagenet</span><br><span class="line">docker run --rm -v tezos-volume-2:/base-dir -it ubuntu-tezos fetch-binaries --base-chain carthagenet --genesis-key &lt;genesis-key&gt;</span><br><span class="line">docker run --rm -v tezos-volume-3:/base-dir -it ubuntu-tezos fetch-binaries --base-chain carthagenet --genesis-key &lt;genesis-key&gt;</span><br></pre></td></tr></tbody></table></div></figure>
 
-
-        <h3 id="Start-Node">
-          <a href="#Start-Node" class="heading-link"><i class="fas fa-link"></i></a>Start Node</h3>
-      <p>在這個步驟我們會一次將 <code>node</code>, <code>baker</code>, <code>endorser</code> 一起執行。</p>
+        <h3 id="start-node">
+          <a href="#start-node" class="heading-link"><i class="fas fa-link"></i></a><a class="markdownIt-Anchor" href="#start-node"></a> Start Node</h3>
+      
+<p>在這個步驟我們會一次將 <code>node</code>, <code>baker</code>, <code>endorser</code> 一起執行。</p>
 <p>執行之前請先注意一下一些事情</p>
 <ol>
 <li>在執行指令時，預設會將 baker 的公私鑰吐出來，請好好存著</li>
@@ -102,39 +111,47 @@ window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 4.2.1"><lin
 </ol>
 <figure class="highlight sh"><div class="table-container"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">docker run --rm --name tezos-node-1 --expose 8733 -p 8732:8732 -p 8733:8733 -v tezos-volume-1:/base-dir -it start-baker --net-addr-port 8733</span><br><span class="line">docker run --rm --name tezos-node-2 --expose 8734 -p 8734:8734 -v tezos-volume-2:/base-dir -it start-baker --net-addr-port 8734 --peer 172.17.0.2:8733</span><br><span class="line">docker run --rm --name tezos-node-3 --expose 8735 -p 8735:8735 -v tezos-volume-3:/base-dir -it start-baker --net-addr-port 8734 --peer 172.17.0.2:8733</span><br></pre></td></tr></tbody></table></div></figure>
 
-
         <h3 id="啟用區塊鏈">
-          <a href="#啟用區塊鏈" class="heading-link"><i class="fas fa-link"></i></a>啟用區塊鏈</h3>
-      <p>先編輯 <span class="exturl"><a class="exturl__link" href="https://github.com/racterub/private-tezos-blockchain/blob/master/parameters/parameters_carthagenet.json" target="_blank" rel="noopener">scripts/parameters.json</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span> 把你前面 start-baker 拿到的 public key 丟進 <code>bootstrap_accounts</code> 就好了<br>最後把 <code>parameters.json</code> 丟進 node 裡面</p>
+          <a href="#啟用區塊鏈" class="heading-link"><i class="fas fa-link"></i></a><a class="markdownIt-Anchor" href="#啟用區塊鏈"></a> 啟用區塊鏈</h3>
+      
+<p>先編輯 <span class="exturl"><a class="exturl__link" href="https://github.com/racterub/private-tezos-blockchain/blob/master/parameters/parameters_carthagenet.json" target="_blank" rel="noopener">scripts/parameters.json</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span> 把你前面 start-baker 拿到的 public key 丟進 <code>bootstrap_accounts</code> 就好了<br>
+最後把 <code>parameters.json</code> 丟進 node 裡面</p>
 <figure class="highlight sh"><div class="table-container"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">docker cp parameters.json tezos-node-1:/parameter.json</span><br><span class="line">docker cp parameters.json tezos-node-2:/parameter.json</span><br><span class="line">docker cp parameters.json tezos-node-3:/parameter.json</span><br></pre></td></tr></tbody></table></div></figure>
-
 <p>最後執行下面指令就好 (<code>-A</code> 指向第一個 node 的 IP，<code>-P</code> 指向 8732)</p>
 <figure class="highlight sh"><div class="table-container"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="built_in">exec</span> tezos-node-1 ./scripts/activate-protocol.sh -A 172.17.0.2 -P 8732 --base-dir /base-dir --tezos-client /base-dir/tezos-client --parameters /parameters.json</span><br></pre></td></tr></tbody></table></div></figure>
-
 <p>執行完之後你的三個 node 就會開始挖礦了</p>
 
         <h2 id="接下來就來聊聊修了什麼-bug">
-          <a href="#接下來就來聊聊修了什麼-bug" class="heading-link"><i class="fas fa-link"></i></a>接下來就來聊聊修了什麼 bug</h2>
-      <ol>
+          <a href="#接下來就來聊聊修了什麼-bug" class="heading-link"><i class="fas fa-link"></i></a><a class="markdownIt-Anchor" href="#接下來就來聊聊修了什麼-bug"></a> 接下來就來聊聊修了什麼 bug</h2>
+      
+<ol>
 <li>主要就是一開始在架的時候會發現三個 node 擺到後面資料會不同步，整個區塊鏈就爛掉了，最後翻到 <span class="exturl"><a class="exturl__link" href="https://github.com/racterub/private-tezos-blockchain/blob/08bf39ee36e579fee0c2d979609cb327ac3d9a42/scripts/start-baker.sh#L16" target="_blank" rel="noopener">這行 code</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span> 中的 <code>--bootstrap-threshold</code> ，要更改成你 peer 的數量才對，所以這邊都要手動改</li>
 <li>另外一個跟上面是在同一行 code，這個會在 Part III 講到</li>
 </ol>
 
         <h2 id="如何使用-tezos">
-          <a href="#如何使用-tezos" class="heading-link"><i class="fas fa-link"></i></a>如何使用 tezos</h2>
-      <p>可以從網路上載 <span class="exturl"><a class="exturl__link" href="https://github.com/serokell/tezos-packaging/releases" target="_blank" rel="noopener">tezos-client</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span> 也可以直接從 node 裡面複製一份出來用</p>
+          <a href="#如何使用-tezos" class="heading-link"><i class="fas fa-link"></i></a><a class="markdownIt-Anchor" href="#如何使用-tezos"></a> 如何使用 tezos</h2>
+      
+<p>可以從網路上載 <span class="exturl"><a class="exturl__link" href="https://github.com/serokell/tezos-packaging/releases" target="_blank" rel="noopener">tezos-client</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span> 也可以直接從 node 裡面複製一份出來用</p>
 
         <h3 id="轉帳">
-          <a href="#轉帳" class="heading-link"><i class="fas fa-link"></i></a>轉帳</h3>
-      <p>從 a 轉 10000 tz 到 b (b 可以換成 public key)<br><code>./tezos-client transfer 10000 from a to b</code><br>(如果 b 的帳戶為 0 的話會需要加上 <code>--burn-cap 0.257</code>)</p>
+          <a href="#轉帳" class="heading-link"><i class="fas fa-link"></i></a><a class="markdownIt-Anchor" href="#轉帳"></a> 轉帳</h3>
+      
+<p>從 a 轉 10000 tz 到 b (b 可以換成 public key)<br>
+<code>./tezos-client transfer 10000 from a to b</code><br>
+(如果 b 的帳戶為 0 的話會需要加上 <code>--burn-cap 0.257</code>)</p>
 
         <h3 id="帳戶總額">
-          <a href="#帳戶總額" class="heading-link"><i class="fas fa-link"></i></a>帳戶總額</h3>
-      <p>取得 a 的帳戶總額，也可以換成 public key<br><code>./tezos get balance for a</code></p>
+          <a href="#帳戶總額" class="heading-link"><i class="fas fa-link"></i></a><a class="markdownIt-Anchor" href="#帳戶總額"></a> 帳戶總額</h3>
+      
+<p>取得 a 的帳戶總額，也可以換成 public key<br>
+<code>./tezos get balance for a</code></p>
 
         <h2 id="總結">
-          <a href="#總結" class="heading-link"><i class="fas fa-link"></i></a>總結</h2>
-      <p>Part I 主要是基本的架設，接下來會談到新的 test network，還有怎麼升上去。<br>最後會自架 block explorer 來將資料可視化。</p>
+          <a href="#總結" class="heading-link"><i class="fas fa-link"></i></a><a class="markdownIt-Anchor" href="#總結"></a> 總結</h2>
+      
+<p>Part I 主要是基本的架設，接下來會談到新的 test network，還有怎麼升上去。<br>
+最後會自架 block explorer 來將資料可視化。</p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -154,21 +171,21 @@ window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 4.2.1"><lin
             document.body.appendChild(img);
           });
       </script></div><footer class="post-footer"><div class="post-ending ending"><div class="ending__text">------ END ------</div></div><div class="post-copyright copyright"><div class="copyright-author"><span class="copyright-author__name">Author: </span><span class="copyright-author__value"><a href="https://blog.racterub.me">Racter</a></span></div><div class="copyright-link"><span class="copyright-link__name">Link: </span><span class="copyright-link__value"><a href="https://blog.racterub.me/zh-tw/2021/tezos-blockchain-part-1/">https://blog.racterub.me/zh-tw/2021/tezos-blockchain-part-1/</a></span></div><div class="copyright-notice"><span class="copyright-notice__name">Copyright: </span><span class="copyright-notice__value">All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="external nofollow" target="_blank">BY-NC-SA</a> unless stating additionally</span></div></div><nav class="post-paginator paginator"><div class="paginator-prev"><a class="paginator-prev__link" href="/zh-tw/2021/ais3-eof-ctf-2020/"><span class="paginator-prev__icon"><i class="fas fa-angle-left"></i></span><span class="paginator-prev__text">AIS3 EOF CTF 2020 心得</span></a></div><div class="paginator-next"><a class="paginator-next__link" href="/zh-tw/2020/balsn20-tpc/"><span class="paginator-prev__text">BalsnCTF 2020 [Web] tpc</span><span class="paginator-next__icon"><i class="fas fa-angle-right"></i></span></a></div></nav></footer></div></div></div><div class="sidebar-wrap" id="sidebar-wrap"><aside class="sidebar" id="sidebar"><div class="sidebar-nav"><span class="sidebar-nav-toc current">Catalog</span><span class="sidebar-nav-ov">Overview</span></div><section class="sidebar-toc"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#緣由"><span class="toc-number">1.</span> <span class="toc-text">
-          緣由</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#小抱怨-full-moon-with-face"><span class="toc-number">2.</span> <span class="toc-text">
-          小抱怨 🌝</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#About-Tezos"><span class="toc-number">3.</span> <span class="toc-text">
-          About Tezos</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#一些名詞解釋"><span class="toc-number">3.1.</span> <span class="toc-text">
-          一些名詞解釋</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#架設-Tezos-Blockchain-Carthagenet"><span class="toc-number">4.</span> <span class="toc-text">
-          架設 Tezos Blockchain (Carthagenet)</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Build-Base-Image"><span class="toc-number">4.1.</span> <span class="toc-text">
-          Build Base Image</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Create-Volume"><span class="toc-number">4.2.</span> <span class="toc-text">
-          Create Volume</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Fetch-Binaries"><span class="toc-number">4.3.</span> <span class="toc-text">
-          Fetch Binaries</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Start-Node"><span class="toc-number">4.4.</span> <span class="toc-text">
-          Start Node</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#啟用區塊鏈"><span class="toc-number">4.5.</span> <span class="toc-text">
-          啟用區塊鏈</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#接下來就來聊聊修了什麼-bug"><span class="toc-number">5.</span> <span class="toc-text">
-          接下來就來聊聊修了什麼 bug</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#如何使用-tezos"><span class="toc-number">6.</span> <span class="toc-text">
-          如何使用 tezos</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#轉帳"><span class="toc-number">6.1.</span> <span class="toc-text">
-          轉帳</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#帳戶總額"><span class="toc-number">6.2.</span> <span class="toc-text">
-          帳戶總額</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#總結"><span class="toc-number">7.</span> <span class="toc-text">
-          總結</span></a></li></ol></section><!-- ov = overview--><section class="sidebar-ov hide"><div class="sidebar-ov-author"><div class="sidebar-ov-author__avatar"><img class="sidebar-ov-author__avatar_img" src="/images/icons/stun-logo.svg" alt="avatar"></div><p class="sidebar-ov-author__text">Racterub</p></div><div class="sidebar-ov-social"><a class="sidebar-ov-social-item" href="https://github.com/racterub" target="_blank" rel="noopener" data-popover="Github" data-popover-pos="up"><span class="sidebar-ov-social-item__icon"><i class="fab fa-github"></i></span></a><a class="sidebar-ov-social-item" href="https://twitter.com/racterub" target="_blank" rel="noopener" data-popover="Twitter" data-popover-pos="up"><span class="sidebar-ov-social-item__icon"><i class="fab fa-twitter"></i></span></a></div><div class="sidebar-ov-state"><a class="sidebar-ov-state-item sidebar-ov-state-item--posts" href="/archives/"><div class="sidebar-ov-state-item__count">13</div><div class="sidebar-ov-state-item__name">Archives</div></a><a class="sidebar-ov-state-item sidebar-ov-state-item--categories" href="/categories/"><div class="sidebar-ov-state-item__count">26</div><div class="sidebar-ov-state-item__name">Categories</div></a></div><div class="sidebar-ov-cc"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" rel="noopener" data-popover="Creative Commons" data-popover-pos="up"><img src="/images/cc-by-nc-sa.svg"></a></div></section><div class="sidebar-reading"><div class="sidebar-reading-info"><span class="sidebar-reading-info__text">You have read </span><span class="sidebar-reading-info__num">0</span><span class="sidebar-reading-info__perc">%</span></div><div class="sidebar-reading-line"></div></div></aside></div><div class="clearfix"></div></div></main><footer class="footer" id="footer"><div class="footer-inner"><div><span>Copyright © 2021</span><span class="footer__icon"><i class="fas fa-heart"></i></span><span>Racter</span></div><div><span>Powered by <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a></span><span> v4.2.1</span><span class="footer__devider">|</span><span>Theme - <a href="https://github.com/liuyib/hexo-theme-stun/" title="Stun" target="_blank" rel="noopener">Stun</a></span><span> v2.6.2</span></div></div></footer><div class="loading-bar" id="loading-bar"><div class="loading-bar__progress"></div></div><div class="back2top" id="back2top"><span class="back2top__icon"><i class="fas fa-arrow-up"></i></span></div></div><div class="search-mask"></div><div class="search-popup"><span class="search-close"></span><div class="search-input"><input placeholder="Search for Posts (Support multiple keywords)"></div><div class="search-results"></div></div><script src="https://cdn.jsdelivr.net/npm/jquery@v3.4.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.ui.min.js"></script><script src="https://cdn.jsdelivr.net/npm/ribbon.js@latest/dist/ribbon.min.js" size="120" alpha="0.6" zIndex="-1"></script><script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.min.js"></script><script>function initSearch() {
+           緣由</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#小抱怨"><span class="toc-number">2.</span> <span class="toc-text">
+           小抱怨 🌝</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#about-tezos"><span class="toc-number">3.</span> <span class="toc-text">
+           About Tezos</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#一些名詞解釋"><span class="toc-number">3.1.</span> <span class="toc-text">
+           一些名詞解釋</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#架設-tezos-blockchain-carthagenet"><span class="toc-number">4.</span> <span class="toc-text">
+           架設 Tezos Blockchain (Carthagenet)</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#build-base-image"><span class="toc-number">4.1.</span> <span class="toc-text">
+           Build Base Image</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#create-volume"><span class="toc-number">4.2.</span> <span class="toc-text">
+           Create Volume</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#fetch-binaries"><span class="toc-number">4.3.</span> <span class="toc-text">
+           Fetch Binaries</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#start-node"><span class="toc-number">4.4.</span> <span class="toc-text">
+           Start Node</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#啟用區塊鏈"><span class="toc-number">4.5.</span> <span class="toc-text">
+           啟用區塊鏈</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#接下來就來聊聊修了什麼-bug"><span class="toc-number">5.</span> <span class="toc-text">
+           接下來就來聊聊修了什麼 bug</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#如何使用-tezos"><span class="toc-number">6.</span> <span class="toc-text">
+           如何使用 tezos</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#轉帳"><span class="toc-number">6.1.</span> <span class="toc-text">
+           轉帳</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#帳戶總額"><span class="toc-number">6.2.</span> <span class="toc-text">
+           帳戶總額</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#總結"><span class="toc-number">7.</span> <span class="toc-text">
+           總結</span></a></li></ol></section><!-- ov = overview--><section class="sidebar-ov hide"><div class="sidebar-ov-author"><div class="sidebar-ov-author__avatar"><img class="sidebar-ov-author__avatar_img" src="/images/icons/stun-logo.svg" alt="avatar"></div><p class="sidebar-ov-author__text">Racterub</p></div><div class="sidebar-ov-social"><a class="sidebar-ov-social-item" href="https://github.com/racterub" target="_blank" rel="noopener" data-popover="Github" data-popover-pos="up"><span class="sidebar-ov-social-item__icon"><i class="fab fa-github"></i></span></a><a class="sidebar-ov-social-item" href="https://twitter.com/racterub" target="_blank" rel="noopener" data-popover="Twitter" data-popover-pos="up"><span class="sidebar-ov-social-item__icon"><i class="fab fa-twitter"></i></span></a></div><div class="sidebar-ov-state"><a class="sidebar-ov-state-item sidebar-ov-state-item--posts" href="/archives/"><div class="sidebar-ov-state-item__count">13</div><div class="sidebar-ov-state-item__name">Archives</div></a><a class="sidebar-ov-state-item sidebar-ov-state-item--categories" href="/categories/"><div class="sidebar-ov-state-item__count">26</div><div class="sidebar-ov-state-item__name">Categories</div></a></div><div class="sidebar-ov-cc"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" rel="noopener" data-popover="Creative Commons" data-popover-pos="up"><img src="/images/cc-by-nc-sa.svg"></a></div></section><div class="sidebar-reading"><div class="sidebar-reading-info"><span class="sidebar-reading-info__text">You have read </span><span class="sidebar-reading-info__num">0</span><span class="sidebar-reading-info__perc">%</span></div><div class="sidebar-reading-line"></div></div></aside></div><div class="clearfix"></div></div></main><footer class="footer" id="footer"><div class="footer-inner"><div><span>Copyright © 2021</span><span class="footer__icon"><i class="fas fa-heart"></i></span><span>Racter</span></div><div><span>Powered by <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a></span><span> v4.2.1</span><span class="footer__devider">|</span><span>Theme - <a href="https://github.com/liuyib/hexo-theme-stun/" title="Stun" target="_blank" rel="noopener">Stun</a></span><span> v2.6.2</span></div></div></footer><div class="loading-bar" id="loading-bar"><div class="loading-bar__progress"></div></div><div class="back2top" id="back2top"><span class="back2top__icon"><i class="fas fa-arrow-up"></i></span></div></div><div class="search-mask"></div><div class="search-popup"><span class="search-close"></span><div class="search-input"><input placeholder="Search for Posts (Support multiple keywords)"></div><div class="search-results"></div></div><script src="https://cdn.jsdelivr.net/npm/jquery@v3.4.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.ui.min.js"></script><script src="https://cdn.jsdelivr.net/npm/ribbon.js@latest/dist/ribbon.min.js" size="120" alpha="0.6" zIndex="-1"></script><script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.min.js"></script><script>function initSearch() {
   var isXML = true;
   var search_path = 'search.json';
 

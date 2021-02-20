@@ -25,9 +25,11 @@
       <pubDate>Wed, 10 Feb 2021 17:41:59 GMT</pubDate>
       <description>
       
-        &lt;h2 id=&quot;Qual&quot;&gt;
-          &lt;a href=&quot;#Qual&quot; class=&quot;heading-link&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;Qual&lt;/h2&gt;
-      &lt;p&gt;在組隊的時候就差點找不到隊友(其實是我一直忘記這件事)，最後從 NCtfU 中直接拉滿人。&lt;br&gt;這場最刺激的其實不是比賽，是比賽剛好在期末考前一週的週末，由於已經組好對了，所以就抱著期末考之後熬夜看就好的心態去比賽 XDDDD&lt;/p&gt;
+        &lt;h2 id=&quot;qual&quot;&gt;
+          &lt;a href=&quot;#qual&quot; class=&quot;heading-link&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#qual&quot;&gt;&lt;/a&gt; Qual&lt;/h2&gt;
+      
+&lt;p&gt;在組隊的時候就差點找不到隊友(其實是我一直忘記這件事)，最後從 NCtfU 中直接拉滿人。&lt;br&gt;
+這場最刺激的其實不是比賽，是比賽剛好在期末考前一週的週末，由於已經組好對了，所以就抱著期末考之後熬夜看就好的心態去比賽 XDDDD&lt;/p&gt;
       
       </description>
       
@@ -43,8 +45,10 @@
       <description>
       
         &lt;h2 id=&quot;緣由&quot;&gt;
-          &lt;a href=&quot;#緣由&quot; class=&quot;heading-link&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;緣由&lt;/h2&gt;
-      &lt;p&gt;在大二上的某天，被教授指派自幹私架的 tezos 區塊鏈，但是老實說我對區塊鏈一點都不熟，就只好硬著頭皮硬幹。&lt;br&gt;也因為 tezos 是當前區塊鏈較新的技術，所以 document &lt;del&gt;(跟屎一樣)&lt;/del&gt; 很分散，需要自己動手挖。&lt;/p&gt;
+          &lt;a href=&quot;#緣由&quot; class=&quot;heading-link&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#緣由&quot;&gt;&lt;/a&gt; 緣由&lt;/h2&gt;
+      
+&lt;p&gt;在大二上的某天，被教授指派自幹私架的 tezos 區塊鏈，但是老實說我對區塊鏈一點都不熟，就只好硬著頭皮硬幹。&lt;br&gt;
+也因為 tezos 是當前區塊鏈較新的技術，所以 document &lt;s&gt;(跟屎一樣)&lt;/s&gt; 很分散，需要自己動手挖。&lt;/p&gt;
       
       </description>
       
@@ -60,7 +64,7 @@
       <description>
       
         &lt;h2 id=&quot;intro&quot;&gt;
-          &lt;a href=&quot;#intro&quot; class=&quot;heading-link&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;Intro&lt;/h2&gt;
+          &lt;a href=&quot;#intro&quot; class=&quot;heading-link&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#intro&quot;&gt;&lt;/a&gt; Intro&lt;/h2&gt;
       
 &lt;p&gt;Solver: @cc85nod, @stdlib.h @ZoneTwelve&lt;br&gt;
 打醬油: @racterub&lt;/p&gt;
@@ -97,12 +101,12 @@
       <description>
       
         &lt;h2 id=&quot;description&quot;&gt;
-          &lt;a href=&quot;#description&quot; class=&quot;heading-link&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;Description&lt;/h2&gt;
+          &lt;a href=&quot;#description&quot; class=&quot;heading-link&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#description&quot;&gt;&lt;/a&gt; Description&lt;/h2&gt;
       
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;div class=&quot;table-container&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;{{Hi}}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;lab.nisra.net:8787&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/figure&gt;
 
         &lt;h2 id=&quot;challenge&quot;&gt;
-          &lt;a href=&quot;#challenge&quot; class=&quot;heading-link&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;Challenge&lt;/h2&gt;
+          &lt;a href=&quot;#challenge&quot; class=&quot;heading-link&quot;&gt;&lt;i class=&quot;fas fa-link&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#challenge&quot;&gt;&lt;/a&gt; Challenge&lt;/h2&gt;
       
 &lt;p&gt;By viewing the challenge url, we can immediately see the source code.&lt;/p&gt;
       
@@ -164,7 +168,8 @@
       <pubDate>Mon, 29 Jun 2020 09:00:10 GMT</pubDate>
       <description>
       
-        &lt;p&gt;臨時決定參加 Pre-Exam，太久沒打了，什麼也沒準備&lt;br&gt;名次也爛到自己不敢看&lt;/p&gt;
+        &lt;p&gt;臨時決定參加 Pre-Exam，太久沒打了，什麼也沒準備&lt;br&gt;
+名次也爛到自己不敢看&lt;/p&gt;
 &lt;p&gt;寫點 writeup，記錄自己有多爛&lt;/p&gt;
       
       </description>
@@ -180,7 +185,9 @@
       <pubDate>Mon, 26 Feb 2018 16:00:00 GMT</pubDate>
       <description>
       
-        &lt;p&gt;太多情境題了&lt;br&gt;web 滿滿的水題有點無言&lt;br&gt;只寫一些值得紀錄的&lt;/p&gt;
+        &lt;p&gt;太多情境題了&lt;br&gt;
+web 滿滿的水題有點無言&lt;br&gt;
+只寫一些值得紀錄的&lt;/p&gt;
       
       </description>
       
@@ -225,7 +232,9 @@
       <pubDate>Wed, 12 Jul 2017 16:00:00 GMT</pubDate>
       <description>
       
-        &lt;p&gt;這次是我第一次玩AIS3 Pre-Exam,難度沒有特別難&lt;del&gt;以web來說拉&lt;/del&gt;.&lt;br&gt;解題的時候有卡了一下下&lt;del&gt;實際上是一整天&lt;/del&gt;&lt;br&gt;以下是有解出來的write-up&lt;/p&gt;
+        &lt;p&gt;這次是我第一次玩AIS3 Pre-Exam,難度沒有特別難&lt;del&gt;以web來說拉&lt;/del&gt;.&lt;br&gt;
+解題的時候有卡了一下下&lt;del&gt;實際上是一整天&lt;/del&gt;&lt;br&gt;
+以下是有解出來的write-up&lt;/p&gt;
       
       </description>
       
